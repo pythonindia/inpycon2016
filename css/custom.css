@@ -1,0 +1,489 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+
+body,html{
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	background: url('../images/bgimage.jpg') fixed;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	line-height:25px;
+	font-size: 16px;
+	color:#333;
+}
+a{
+	color:#333;
+}
+a:hover{
+	color:#da3127;
+	text-decoration: none;
+}
+h4{
+	line-height:30px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h6{
+	line-height:30px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+h2{
+	text-transform: uppercase;
+	color:#da3127;
+	font-size: 26px;
+	font-weight: 400;
+}
+
+/* remove outer padding */
+#main-content .row{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*Remove rounded coners*/
+nav.sidebar.navbar {
+	border-radius: 0px;
+}
+
+nav.sidebar, #main-content{
+	-webkit-transition: margin 200ms ease-out;
+    -moz-transition: margin 200ms ease-out;
+    -o-transition: margin 200ms ease-out;
+    transition: margin 200ms ease-out;
+}
+
+/* Add gap to nav and right windows.*/
+#main-content{
+margin-top: 25px;
+}
+
+
+
+.navbar-inverse{
+	border:none;
+}
+
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+	color: #CCC;
+	background-color: transparent;
+}
+nav:hover .forAnimate{
+	opacity: 1;
+}
+section{
+	padding-left: 15px;
+}
+.section{
+	min-height:100vh;
+	margin-bottom:130px;
+}
+
+.overbg{
+	width:100%;
+	height:100px;
+	background-image: url('../images/overbg.png');
+	position: fixed;
+	background-position:bottom;
+	background-repeat: repeat-x;
+	z-index: 999;
+	bottom: 0px;
+}
+
+.skyline{
+	width:100%;
+	height:190px;
+	background-image: url('../images/skyline.png');
+	position: fixed;
+	background-position:bottom;
+	background-repeat: repeat-x;
+	z-index: 0;
+	bottom: 0px;
+}
+
+.overbg .footerdown{
+	bottom:0px;
+	position: absolute;
+	z-index:1000;
+	padding:5px 25px 0px 25px;
+	color:#eee;
+}
+
+
+
+.btn {
+	border-radius: 0;
+}
+.info-block{
+    margin-bottom:25px;
+    border:1px solid #c9302c;
+}
+.info-block .square-box
+{
+    width:100px;
+    min-height:110px;
+    margin-right:22px;
+    text-align:center!important;
+    padding:20px 0
+}
+.info-block.block-info
+{
+    border-color:#c9302c;
+}
+
+
+.navbar-inverse {
+    background-color: #fff;
+    background-image: url('../images/leftbg1.jpg');
+    -webkit-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.2);
+box-shadow: 4px 2px 5px 0px rgba(0,0,0,0.2);
+overflow: hidden;
+}
+
+.nav-footer{
+	bottom: 0px;
+	position: absolute;
+	width:100%;
+	height:100px;
+	 background-image: url('../images/leftftr.png');
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+max-height:100% !important;
+}
+
+#others{
+ margin-bottom: 100px;
+ margin-top: 0px;
+}
+
+.py16navbar li a{
+font-size:16px;
+padding-top:12px;
+padding-bottom:10px;
+color:#333 !important;
+font-weight: 400;
+transition:0.4s;
+text-align: center;
+}
+
+.py16navbar li.active > a:before{ 
+   content: url('../images/menubg1.png');
+   margin-left:-30px;
+   vertical-align: middle;
+   display: inline-block;
+} 
+.py16navbar li.active > a:after{ 
+   content: url('../images/menubg1.png');
+   margin-right:-30px;
+   vertical-align: middle;
+   display: inline-block;
+} 
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background: none;
+   color:#da3127 !important;
+   font-weight: 400;
+   /*padding-top:2px;
+   padding-bottom:2px;*/
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    background: none;
+    color:#da3127 !important;
+}
+
+.navbar-brand{
+	padding:5px !important;
+	height: auto;
+}
+
+.btn-py16{
+ 		padding:10px 25px;
+	background: #da3127;
+	font-weight: 400;
+	font-size:16px;
+	text-transform: uppercase;
+}
+
+.teams .pybox,.sponsors .pybox,.teams .pybox{
+	min-height:350px;
+	padding:25px;
+	margin:10px;
+}
+
+.pybox{
+	-webkit-box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+	-moz-box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+	box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+	padding:25px;
+	margin-bottom: 10px;
+	background: #fff url('../images/boxbg.png') right bottom no-repeat;
+}
+
+
+.speakers{
+	/*margin-top:-80px;*/
+	height: 100vh;
+}
+
+.speakers .social{
+	color:#000;
+}
+
+.speakers h4{
+	color:#000;
+}
+
+
+
+
+.schedule .nav-tabs>li.active>a,.schedule .nav-tabs>li.active>a:focus,.schedule .nav-tabs>li.active>a:hover{
+	background:#da3127;
+	border:none;
+	color:#fff;
+}
+
+.schedule .nav-tabs>li>a,.schedule .nav-tabs>li>a:focus,.schedule .nav-tabs>li>a:hover{
+	color:#111;
+	transition:0.4s;
+	
+}
+
+.schedule .nav-tabs>li>a:hover{
+	background:#f2f2f2;
+	border-radius:0px;
+}
+
+.schedule .nav-tabs>li>a{
+	background:#fff;
+	-webkit-box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+-moz-box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+border-radius:0px;
+}
+
+.schedule .nav-tabs{
+	border:none;
+}
+
+.schedule .nav>li>a{
+	padding:1px;
+}
+
+.schedule .tab-content{
+	padding-top:20px;
+}
+
+
+.custab{
+    border: 1px solid #eee;
+    padding: 5px;
+    transition: 0.5s;
+background: #fff url('../images/tablebg.png') center center repeat;
+    	-webkit-box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+-moz-box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+box-shadow: 0px 1px 21px 0px rgba(200,200,200,1);
+border-radius:0px;
+    }
+
+    .custab thead tr th{
+    	padding:10px;
+    	background:#444;
+    	border:none;
+    	color:#fff;
+    }
+
+     .custab tbody tr td{
+    	padding:15px;
+    	border:none;
+    }
+    
+.pyred{
+	color:#da3127;
+	font-weight:400;
+}
+.pytablefont{
+	font-size:13px;
+}
+
+.navbar-toggle {
+    background-color: #333;
+   }
+
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 2px -2px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.pymatbtn {
+	padding: 0.6em 1.5em;
+	margin: 0;
+	position: relative;
+	min-width: 200px;
+	display: inline-block;
+	background:#da3127;
+	-webkit-transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+	transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.pymatbtn:hover{
+	outline: none;
+	background: #c82e25;
+}
+.pymatbtn:focus{
+	outline: none;
+}
+
+.ripple-obj {
+	height: 100%;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	fill: #aa2119;
+}
+
+.ripple-obj use {
+	opacity: 0;
+}
+
+.ripple-obj {
+	fill: #87211b;
+}
+
+
+.speakers h2,.schedule h2,.venue h2,.sponsors h2,.blog h2,.sponsorpship h2{
+	font-weight: 700;
+	font-size: 30px !important;
+	vertical-align: middle;
+	margin:25px 0 45px 0;
+	z-index:2;
+	position: relative;
+}
+
+.sponsors h3{
+	margin:40px 0 15px 0;
+}
+
+@media (max-width: 768px) {
+.section{
+		margin-top:80px !important;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+
+	#main-content{
+		position: absolute;
+		width: calc(100% - 20%); /*keeps 100% minus nav size*/
+		margin-left: 20%;
+		float: right;
+	}
+
+	nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 0px;
+	}
+
+	nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+		text-align: center;
+		width: 100%;
+		margin-left: 0px;
+	}
+
+
+	nav.sidebar a{
+		padding: 15px 30px;
+	}
+
+
+	nav.sidebar .navbar-nav > li:first-child{
+		/*border-top: 1px #c9302c solid;*/
+	}
+
+	nav.sidebar .navbar-nav > li{
+		/*border-bottom: 1px #e5e5e5 solid;*/
+	}
+
+
+	nav.sidebar .navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
+
+	nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+		padding: 0 0px 0 0px;
+	}
+
+
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #777;
+	}
+
+	/*gives sidebar width/height*/
+	nav.sidebar{
+		width: 20%;
+		height: 100%;		
+		float: left;
+		z-index: 8000;
+		margin-bottom: 0px;
+	}
+
+	/*give sidebar 100% width;*/
+	nav.sidebar li {
+		width: 100%;
+	}
+
+	/* Move nav to full on mouse over*/
+	nav.sidebar:hover{
+		margin-left: 0px;
+	}
+	/*for hiden things when navbar hidden*/
+	.forAnimate{
+		opacity: 0;
+	}
+
+	
+}
+
+/* .....NavBar: Fully showing nav bar..... */
+@media (min-width: 1330px) {
+
+	/*Allow main to be next to Nav*/
+	#main-content{
+		width: calc(100% - 20%); /*keeps 100% minus nav size*/
+		margin-left: 20%;
+	}
+
+	/*Show all nav*/
+	nav.sidebar{
+		margin-left: 0px;
+		float: left;
+	}
+	/*Show hidden items on nav*/
+	nav.sidebar .forAnimate{
+		opacity: 1;
+	}
+}
