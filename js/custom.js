@@ -23,7 +23,7 @@ jQuery(document).ready(function($) {
         }
         else
         {
-            window.location.href = "http://demo.webchirpy.com/py16/"+target;
+            window.location.href = "https://in.pycon.org/2016/"+target;
           
         }
         
