@@ -150,7 +150,8 @@ overflow: hidden;
 	position: absolute;
 	width:100%;
 	height:100px;
-	 background-image: url('../images/leftftr.png');
+	background-image: url('../images/leftftr.png');
+	z-index: -1;
 }
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
