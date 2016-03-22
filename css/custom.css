@@ -329,7 +329,8 @@ button {
 
 .pymatbtn {
 	padding: 0.6em 1.5em;
-	margin: 0;
+	margin-left: 10px;
+	margin-right: 10px;
 	position: relative;
 	min-width: 200px;
 	display: inline-block;
