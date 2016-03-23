@@ -13,20 +13,15 @@ jQuery(document).ready(function($) {
 
         // console.log(window.location.href);
 
-        if($(target).length>0)
-        {
+        if($(target).length>0) {
             $('body').scrollTo(target, {
                 'axis':'y',
-                duration: 2500,
+                duration: 700,
                 easing:'easeOutQuad'
             });
-        }
-        else
-        {
+        } else {
             window.location.href = "/"+target;
-
         }
-
     });
 
 });
