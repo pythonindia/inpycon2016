@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
 
     /* ======= Scrollspy ======= */
     $('body').scrollspy({ target: '#nav-sidebar', offset: 400});
-        
+
 
     /* ======= ScrollTo ======= */
     $('a.scrollto').on('click', function(e){
@@ -15,18 +15,18 @@ jQuery(document).ready(function($) {
 
         if($(target).length>0)
         {
-            $('body').scrollTo(target, {         
-                'axis':'y', 
-                duration: 2500, 
+            $('body').scrollTo(target, {
+                'axis':'y',
+                duration: 2500,
                 easing:'easeOutQuad'
             });
         }
         else
         {
-            window.location.href = "https://in.pycon.org/2016/"+target;
-          
+            window.location.href = "/"+target;
+
         }
-        
+
     });
 
 });

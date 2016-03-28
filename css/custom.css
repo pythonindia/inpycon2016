@@ -13,10 +13,6 @@ body, html {
     color:#333;
 }
 
-.red {
-    color: #DA3127;
-}
-
 a {
     color:#333;
 }
@@ -89,6 +85,14 @@ section {
 .section {
     min-height:100vh;
     margin-bottom:130px;
+}
+
+#footer-links > a {
+    color: #fff;
+}
+
+#footer-links > a:hover {
+    color: #333;
 }
 
 .overbg {
