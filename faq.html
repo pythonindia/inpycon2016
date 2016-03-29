@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<!--[if IE 8]>
-<html lang="en" class="ie8">
-<![endif]-->
-<!--[if IE 9]>
-<html lang="en" class="ie9">
-<![endif]-->
-<!--[if !IE]>
-<!-->
-<html lang="en">
 <!--
-<![endif]-->
+===============================================================================
+== NOTE: To edit html file, change the files inside /templates/ folder only. ==
+== Use `staticjinja build` or `staticjinja watch` to recompile them.         ==
+===============================================================================
+-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]> <!-->
+<html lang="en">
+<!-- <![endif]-->
 <head>
-
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        PyCon India 2016 in New Delhi | September 23rd to 25th
-    </title>
+
+    <title>PyCon India 2016 in New Delhi | September 23rd to 25th</title>
     <meta name="description" content="PyCon India, the premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community and it attracts the best Python programmers from across the country and abroad.">
+
     <meta name="author" content="Pycon India">
     <link rel="shortcut icon" href="favicon.png">
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -54,7 +54,7 @@
     <!-- END SVG Sprite -->
 
     <div id="nav-sidebar">
-    	<nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -81,10 +81,10 @@
                         <li><a href="#venue" class="scrollto"> VENUE </a></li>
                         <li><a href="#sponsors" class="scrollto"> SPONSORS </a></li>
                         <li><a href="#"> BLOG </a></li>
-                        <li><a href="sponsorship.html"> SPONSORSHIP </a></li>
-                        <li class="active"><a href="faq.html"> FAQ </a></li>
+                        <li><a href="/sponsorship.html">SPONSORSHIP</a></li>
+                        <li><a href="/faq.html">FAQ </a></li>
                         <!-- <li><a href="#"> TEAM </a></li> -->
-                        <li><a href="coc.html"> COC </a></li
+                        <li><a href="/coc.html">COC </a></li>
                     </ul>
                 </div>
             </div>
@@ -97,7 +97,7 @@
         <div class="overbg hidden-xs">
             <div class="footerdown col-md-12">
                 <p class="col-md-4 text-center"> Copyright &copy; 2016<a href="https://pssi.org.in/pyconindia/" style="color:#eee;"> Python Software Society of India.</a> </p>
-                <p class="col-md-8 text-center" id='footer-links'>
+                <p class="col-md-8 text-center" id="footer-links">
                     <a href="https://webchat.freenode.net/?channels=%23pyconindia" target="_blank">IRC</a> |
                     <a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">Mailing List</a> |
                     <a href="https://twitter.com/search?q=pyconindia" target="_blank">#pyconindia</a>
@@ -105,8 +105,10 @@
             </div>
         </div>
 
+
+        
     <!-- ******others****** -->
-    <section id="others" class="others section">
+    <section id="faq" class="others section">
         <div class="row text-center">
             <div class="col-md-12 sponsorship">
                 <div class="col-md-8 col-md-offset-2">
@@ -193,16 +195,17 @@
     </section>
     <!--//others-->
 
-<footer class="visible-xs">
-            <div class="footercol-md-12">
-                <p class="col-md-4 text-center"> Copyright &copy; 2016<a href="https://pssi.org.in/pyconindia/" style="color:#333;"> Python Software Society of India.</a> </p>
-                <p class="col-md-8 text-center" id='footer-links'>
-                    <a href="https://webchat.freenode.net/?channels=%23pyconindia" target="_blank">IRC</a> |
-                    <a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">Mailing List</a> |
-                    <a href="https://twitter.com/search?q=pyconindia" target="_blank">#pyconindia</a>
-                </p>
-            </div>
-        </footer>
+
+        <footer class="visible-xs">
+    <div class="footercol-md-12">
+        <p class="col-md-4 text-center"> Copyright &copy; 2016<a href="https://pssi.org.in/pyconindia/" style="color:#333;">Python Software Society of India.</a> </p>
+        <p class="col-md-4 text-center" id="footer-links">
+            <a href="https://webchat.freenode.net/?channels=%23pyconindia" target="_blank">IRC</a> |
+            <a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">Mailing List</a> |
+            <a href="https://twitter.com/search?q=pyconindia" target="_blank">#pyconindia</a>
+        </p>
+    </div>
+</footer>
     </div>
 
 
@@ -220,27 +223,24 @@
     <script src="js/tweenmax.js"></script>
     <script src="js/ripple-config.js"></script>
 
-<script>
-$(function(){
-    $(".overbg").fadeOut('fast','swing');
-    // $(".skyline").fadeOut('fast','swing');
+    <script>
+    $(function(){
+        $(window).scroll(function (event) {
+            var scroll = $(window).scrollTop();
 
-    $(window).scroll(function (event) {
-        var scroll = $(window).scrollTop();
-
-        if($(window).scrollTop() + $(window).height() == $(document).height())
-        {
-            $(".overbg").fadeIn('fast','swing');
-            // $(".skyline").fadeIn('fast','swing');
-        }
-        else
-        {
-            $(".overbg").fadeOut('fast','swing');
-            // $(".skyline").fadeOut('fast','swing');
-        }
+            if($(window).scrollTop() + $(window).height() == $(document).height() || scroll == 0)
+            {
+                $(".overbg").fadeIn('fast','swing');
+                // $(".skyline").fadeIn('fast','swing');
+            }
+            else
+            {
+                $(".overbg").fadeOut('fast','swing');
+                // $(".skyline").fadeOut('fast','swing');
+            }
+        });
     });
-});
-</script>
+    </script>
 
 </body>
 </html>

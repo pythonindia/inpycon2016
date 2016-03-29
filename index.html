@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<!--[if IE 8]>
-<html lang="en" class="ie8">
-<![endif]-->
-<!--[if IE 9]>
-<html lang="en" class="ie9">
-<![endif]-->
-<!--[if !IE]>
-<!-->
-<html lang="en">
 <!--
-<![endif]-->
+===============================================================================
+== NOTE: To edit html file, change the files inside /templates/ folder only. ==
+== Use `staticjinja build` or `staticjinja watch` to recompile them.         ==
+===============================================================================
+-->
+<!--[if IE 8]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"><![endif]-->
+<!--[if !IE]> <!-->
+<html lang="en">
+<!-- <![endif]-->
 <head>
-
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        PyCon India 2016 in New Delhi | September 23rd to 25th
-    </title>
+
+    <title>PyCon India 2016 in New Delhi | September 23rd to 25th</title>
     <meta name="description" content="PyCon India, the premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community and it attracts the best Python programmers from across the country and abroad.">
+
     <meta name="author" content="Pycon India">
     <link rel="shortcut icon" href="favicon.png">
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -54,7 +54,7 @@
     <!-- END SVG Sprite -->
 
     <div id="nav-sidebar">
-    	<nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse sidebar navbar-fixed-top" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -81,10 +81,10 @@
                         <li><a href="#venue" class="scrollto"> VENUE </a></li>
                         <li><a href="#sponsors" class="scrollto"> SPONSORS </a></li>
                         <li><a href="#"> BLOG </a></li>
-                        <li><a href="sponsorship.html"> SPONSORSHIP </a></li>
-                        <li><a href="faq.html"> FAQ </a></li>
+                        <li><a href="/sponsorship.html">SPONSORSHIP</a></li>
+                        <li><a href="/faq.html">FAQ </a></li>
                         <!-- <li><a href="#"> TEAM </a></li> -->
-                        <li><a href="coc.html"> COC </a></li>
+                        <li><a href="/coc.html">COC </a></li>
                     </ul>
                 </div>
             </div>
@@ -106,7 +106,8 @@
         </div>
 
 
-    <!-- ******home****** -->
+        
+<!-- ******home****** -->
     <section id="home" class="home section">
         <div class="row text-center">
             <div class="col-md-8 col-md-offset-2">
@@ -162,339 +163,329 @@
 
 
     <!-- ******speakers****** -->
-    <!--
-    <section id="speakers" class="speakers section">
-        <div class="row text-center">
-            <h2 class="title text-center">
-                <img src="images/icons/team.png" /><br/> SPEAKERS
-            </h2>
-            <div class="col-md-8 col-md-offset-2">
-                <div class="item col-md-6 col-sm-6 col-xs-12">
-                    <div class="pybox">
-                        <div class="icon-holder text-center">
-                            <center>
-                                <img src="images/keynote.jpeg" class="img-responsive"/>
-                            </center>
-                        </div>
-                        <div class="content">
-                            <h4>TBA</h4>
-                            <a href="#">
-                                <i class="social fa fa-github-square fa-2x social-fb"></i>
-                            </a>
-                            <a href="#">
-                                <i class="social fa fa-twitter-square fa-2x social-tw"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item col-md-6 col-sm-6 col-xs-12">
-                    <div class="pybox">
-                        <div class="icon-holder text-center">
-                            <center>
-                                <img src="images/keynote.jpeg" class="img-responsive"/>
-                            </center>
-                        </div>
-                        <div class="content">
-                            <h4>TBA</h4>
-                            <a href="#">
-                                <i class="social fa fa-github-square fa-2x social-fb"></i>
-                            </a>
-                            <a href="#">
-                                <i class="social fa fa-twitter-square fa-2x social-tw"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-    <!--//speakers-->
-
-
-    <!-- ******schedule****** -->
-    <!--
-    <section id="schedule" class="schedule section">
-        <div class="row text-center">
-             <h2 class="title text-center">
-                <img src="images/icons/schedule.png" /><br/> SCHEDULE
-            </h2>
-            <div class="tabbable-panel">
-                <div class="tabbable-line">
-                    <ul class="nav nav-tabs nav-justified responsive">
-                        <li class="col-md-4 active">
-                            <a href="#tab_default_1" data-toggle="tab">
-                                <h4 class="date">
-                                    <i class="fa fa-rocket"></i>&nbsp;&nbsp;23 September 2016, Friday
-                                </h4>
-                            </a>
-                        </li>
-                        <li class="col-md-4">
-                            <a href="#tab_default_2" data-toggle="tab">
-                                <h4 class="date">
-                                    <i class="fa fa-microphone"></i>&nbsp;&nbsp;24 September 2016, Saturday
-                                </h4>
-                            </a>
-                        </li>
-                        <li class="col-md-4">
-                            <a href="#tab_default_3" data-toggle="tab">
-                                <h4 class="date">
-                                    <i class="fa fa-microphone"></i>&nbsp;&nbsp;25 September 2016, Sunday
-                                </h4>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="tab-content responsive">
-                        <div class="tab-pane active" id="tab_default_1">
-                            <h6>
-                                Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants and a <br/>separate ticket is required to attend each workshop.
-                            </h6>
-                            <div class="table-responsive text-left">
-                                <div class="col-md-10 col-md-offset-1 custyle">
-                                    <table id="tableDiv" class="table custab">
-                                        <thead>
-                                            <tr>
-                                                <th style="width:13%;" class="text-center pyred">TIME</th>
-                                                <th style="width:50%;" class="text-center pyred">TITLE</th>
-                                                <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                                <th style="width:18%;" class="text-center pyred">LOCATION</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="pyred">TBA</td>
-                                                <td><center>TBA</center></td>
-                                                <td><center>TBA</center></td>
-                                                <td><center>TBA</center></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="tab_default_2">
-                            <h6>
-                                See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.
-                            </h6>
-                            <div class="table-responsive text-left">
-                                <div class="col-md-10 col-md-offset-1 custyle">
-                                         <table id="tableDiv" class="table custab">
-                                        <thead>
-                                            <tr>
-                                                <th style="width:13%;" class="text-center pyred">TIME</th>
-                                                <th style="width:50%;" class="text-center pyred">TITLE</th>
-                                                <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                                <th style="width:18%;" class="text-center pyred">LOCATION</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="pyred">TBA</td>
-                                                <td><center>TBA</center></td>
-                                                <td><center>TBA</center></td>
-                                                <td><center>TBA</center></td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane" id="tab_default_3">
-                            <h6>
-                                Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants <br/>and a separate ticket is required to attend each workshop.
-                            </h6>
-                            <div class="table-responsive text-left">
-                                <div class="col-md-10 col-md-offset-1 custyle">
-                                          <table id="tableDiv" class="table custab">
-                                        <thead>
-                                           <tr>
-                                                <th style="width:13%;" class="text-center pyred">TIME</th>
-                                                <th style="width:50%;" class="text-center pyred">TITLE</th>
-                                                <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                                <th style="width:18%;" class="text-center pyred">LOCATION</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="pyred">TBA</td>
-                                                <td><center>TBA</center></td>
-                                                <td><center>TBA</center></td>
-                                                <td><center>TBA</center></td>
-                                            </tr>
-
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-    <!--//schedule-->
-
-
-    <!-- ******venue****** -->
-    <section id="venue" class="venue section">
-        <div class="row text-center">
-             <h2 class="title text-center">
-                <img src="images/icons/venue.png" /><br/>VENUE
-            </h2>
-            <div class="col-md-6 col-md-offset-3">
+<section id="speakers" class="speakers section">
+    <div class="row text-center">
+        <h2 class="title text-center">
+            <img src="images/icons/team.png" /><br/> SPEAKERS
+        </h2>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="item col-md-6 col-sm-6 col-xs-12">
                 <div class="pybox">
-                    <center>
-                        <img src="images/delhi.jpg" class="img-responsive"/>
-                    </center>
-                    <div class="content text-center">
-                        <h3 style="text-align:center;">
-                            <a href="#">
-                                Sirifort Auditorium Complex
-                            </a>
-                        </h3>
-                        <span class="help-block">
-                            Asiad Village Complex,
-                            <br/>
-                            August Kranti Marg,
-                            <br/>
-                            New Delhi - 110049
-                            <br/>
-                        </span>
-                        <!--a href="#" target="_blank" class="btn btn-pycon">
-                            <i class="fa fa-location-arrow"></i> Find Directions
-                        </a-->
-                        <!--a href="#" target="_blank" class="btn btn-pycon">
-                            <i class="fa fa-cab"></i> Book a Cab
-                        </a-->
-                        <!--a href="#" target="_blank" class="btn btn-pycon">
-                            <i class="fa fa-building"></i> Book Hotel
-                        </a-->
+                    <div class="icon-holder text-center">
+                        <center>
+                            <img src="images/keynote.jpeg" class="img-responsive"/>
+                        </center>
+                    </div>
+                    <div class="content">
+                        <h4>TBA</h4>
+                        <a href="#">
+                            <i class="social fa fa-github-square fa-2x social-fb"></i>
+                        </a>
+                        <a href="#">
+                            <i class="social fa fa-twitter-square fa-2x social-tw"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-md-6 col-sm-6 col-xs-12">
+                <div class="pybox">
+                    <div class="icon-holder text-center">
+                        <center>
+                            <img src="images/keynote.jpeg" class="img-responsive"/>
+                        </center>
+                    </div>
+                    <div class="content">
+                        <h4>TBA</h4>
+                        <a href="#">
+                            <i class="social fa fa-github-square fa-2x social-fb"></i>
+                        </a>
+                        <a href="#">
+                            <i class="social fa fa-twitter-square fa-2x social-tw"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!--//venue-->
+    </div>
+</section>
+<!--//speakers-->
+    <!-- ******schedule****** -->
+<section id="schedule" class="schedule section">
+    <div class="row text-center">
+         <h2 class="title text-center">
+            <img src="images/icons/schedule.png" /><br/> SCHEDULE
+        </h2>
+        <div class="tabbable-panel">
+            <div class="tabbable-line">
+                <ul class="nav nav-tabs nav-justified responsive">
+                    <li class="col-md-4 active">
+                        <a href="#tab_default_1" data-toggle="tab">
+                            <h4 class="date">
+                                <i class="fa fa-rocket"></i>&nbsp;&nbsp;23 September 2016, Friday
+                            </h4>
+                        </a>
+                    </li>
+                    <li class="col-md-4">
+                        <a href="#tab_default_2" data-toggle="tab">
+                            <h4 class="date">
+                                <i class="fa fa-microphone"></i>&nbsp;&nbsp;24 September 2016, Saturday
+                            </h4>
+                        </a>
+                    </li>
+                    <li class="col-md-4">
+                        <a href="#tab_default_3" data-toggle="tab">
+                            <h4 class="date">
+                                <i class="fa fa-microphone"></i>&nbsp;&nbsp;25 September 2016, Sunday
+                            </h4>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content responsive">
+                    <div class="tab-pane active" id="tab_default_1">
+                        <h6>
+                            Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants and a <br/>separate ticket is required to attend each workshop.
+                        </h6>
+                        <div class="table-responsive text-left">
+                            <div class="col-md-10 col-md-offset-1 custyle">
+                                <table id="tableDiv" class="table custab">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:13%;" class="text-center pyred">TIME</th>
+                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
+                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="pyred">TBA</td>
+                                            <td><center>TBA</center></td>
+                                            <td><center>TBA</center></td>
+                                            <td><center>TBA</center></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab_default_2">
+                        <h6>
+                            See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.
+                        </h6>
+                        <div class="table-responsive text-left">
+                            <div class="col-md-10 col-md-offset-1 custyle">
+                                     <table id="tableDiv" class="table custab">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:13%;" class="text-center pyred">TIME</th>
+                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
+                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="pyred">TBA</td>
+                                            <td><center>TBA</center></td>
+                                            <td><center>TBA</center></td>
+                                            <td><center>TBA</center></td>
+                                        </tr>
 
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab_default_3">
+                        <h6>
+                            Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants <br/>and a separate ticket is required to attend each workshop.
+                        </h6>
+                        <div class="table-responsive text-left">
+                            <div class="col-md-10 col-md-offset-1 custyle">
+                                      <table id="tableDiv" class="table custab">
+                                    <thead>
+                                       <tr>
+                                            <th style="width:13%;" class="text-center pyred">TIME</th>
+                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
+                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="pyred">TBA</td>
+                                            <td><center>TBA</center></td>
+                                            <td><center>TBA</center></td>
+                                            <td><center>TBA</center></td>
+                                        </tr>
 
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--//schedule-->
+    <!-- ******venue****** -->
+<section id="venue" class="venue section">
+    <div class="row text-center">
+         <h2 class="title text-center">
+            <img src="images/icons/venue.png" /><br/>VENUE
+        </h2>
+        <div class="col-md-6 col-md-offset-3">
+            <div class="pybox">
+                <center>
+                    <img src="images/delhi.jpg" class="img-responsive"/>
+                </center>
+                <div class="content text-center">
+                    <h3 style="text-align:center;">
+                        <a href="#">
+                            Sirifort Auditorium Complex
+                        </a>
+                    </h3>
+                    <span class="help-block">
+                        Asiad Village Complex,
+                        <br/>
+                        August Kranti Marg,
+                        <br/>
+                        New Delhi - 110049
+                        <br/>
+                    </span>
+                    <!--a href="#" target="_blank" class="btn btn-pycon">
+                        <i class="fa fa-location-arrow"></i> Find Directions
+                    </a-->
+                    <!--a href="#" target="_blank" class="btn btn-pycon">
+                        <i class="fa fa-cab"></i> Book a Cab
+                    </a-->
+                    <!--a href="#" target="_blank" class="btn btn-pycon">
+                        <i class="fa fa-building"></i> Book Hotel
+                    </a-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//venue-->
     <!-- ******sponsors****** -->
-    <section id="sponsors" class="sponsors section">
-        <div class="row text-center">
-             <h2 class="title text-center">
-                <img src="images/icons/sponsors.png" /><br/> SPONSORS
-            </h2>
-            <div class="col-md-12">
-                <h3 class="date text-center">Platinum</h3>
-                <br/>
-                <div class="col-md-4">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
+<section id="sponsors" class="sponsors section">
+    <div class="row text-center">
+         <h2 class="title text-center">
+            <img src="images/icons/sponsors.png" /><br/> SPONSORS
+        </h2>
+        <div class="col-md-12">
+            <h3 class="date text-center">Platinum</h3>
+            <br/>
+            <div class="col-md-4">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
                 </div>
             </div>
-            <div class="col-md-12">
-                <h3 class="date text-center">Gold</h3>
-                <br/>
-                <div class="col-md-6">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
+            <div class="col-md-4">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
                 </div>
             </div>
-            <div class="col-md-12">
-                <h3 class="date text-center">Silver</h3>
-                <br/>
-                <div class="col-md-6">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <h3 class="date text-center">Accomodation</h3>
-                <br/>
-                <div class="col-md-6">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="pybox">
-                        <a href="#">
-                            <center>
-                                <img class="img-responsive" src="images/spon.png" />
-                            </center>
-                        </a>
-                        <p></p>
-                    </div>
+            <div class="col-md-4">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
                 </div>
             </div>
         </div>
-    </section>
-    <!--//sponsors-->
-
+        <div class="col-md-12">
+            <h3 class="date text-center">Gold</h3>
+            <br/>
+            <div class="col-md-6">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <h3 class="date text-center">Silver</h3>
+            <br/>
+            <div class="col-md-6">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <h3 class="date text-center">Accomodation</h3>
+            <br/>
+            <div class="col-md-6">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pybox">
+                    <a href="#">
+                        <center>
+                            <img class="img-responsive" src="images/spon.png" />
+                        </center>
+                    </a>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//sponsors-->
 
     <!-- ******blog****** -->
     <section id="blog" class="blog section" style="margin-bottom:60px;">
@@ -504,38 +495,39 @@
             </h2>
             <div class="col-md-6">
                 <div class="twitter-wrapper pybox">
-                    <div class="tweetline">
-                        <!-- start sw-rss-feed code -->
-                        <!-- start feedwind code -->
-                        <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script>
-                        <script type="text/javascript">(function() {var params = {rssmikle_url: "https://in.pycon.org/blog/feeds/all.atom.xml",rssmikle_frame_width: "100%",rssmikle_frame_height: "406",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "Off",rssmikle_title: "off",rssmikle_title_sentence: "PyCon India Blog",rssmikle_title_link: "",rssmikle_title_bgcolor: "#0066FF",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#0E98C5",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M:%S %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; "><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code -->
-                        </script>
-                        <script type="text/javascript" src="js/rss-feed.js"></script>
-                        <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. -->
-                        <div style="text-align:right; width:180px;">
-                        </div>
-                        <!-- end sw-rss-feed code -->
-                    </div>
-                </div>
+    <div class="tweetline">
+        <!-- start sw-rss-feed code -->
+        <!-- start feedwind code -->
+        <script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script>
+        <script type="text/javascript">(function() {var params = {rssmikle_url: "https://in.pycon.org/blog/feeds/all.atom.xml",rssmikle_frame_width: "100%",rssmikle_frame_height: "406",frame_height_by_article: "0",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "20",sort: "Off",rssmikle_title: "off",rssmikle_title_sentence: "PyCon India Blog",rssmikle_title_link: "",rssmikle_title_bgcolor: "#0066FF",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#0E98C5",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M:%S %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; "><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;">RSS Feed Widget</a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code -->
+        </script>
+        <script type="text/javascript" src="js/rss-feed.js"></script>
+        <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. -->
+        <div style="text-align:right; width:180px;">
+        </div>
+        <!-- end sw-rss-feed code -->
+    </div>
+</div>
             </div>
             <div class="col-md-6">
                 <div class="twitter-wrapper pybox">
-                    <div class="tweetline">
-                        <a class="twitter-timeline" data-dnt="true" data-chrome="nofooter transparent noborders" href="https://twitter.com/pyconindia" data-widget-id="413600400701272065">Tweets by @pyconindia</a>
-                        <script>
-                        ! function(d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0],
-                                p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");
-                        </script>
-                    </div>
-                </div>
+    <div class="tweetline">
+        <a class="twitter-timeline" data-dnt="true" data-chrome="nofooter transparent noborders" href="https://twitter.com/pyconindia" data-widget-id="413600400701272065">Tweets by @pyconindia</a>
+
+        <script>
+            !function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + "://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");
+        </script>
+    </div>
+</div>
             </div>
         </div>
     </section>
@@ -543,15 +535,15 @@
 
 
         <footer class="visible-xs">
-            <div class="footercol-md-12">
-                <p class="col-md-4 text-center"> Copyright &copy; 2016<a href="https://pssi.org.in/pyconindia/" style="color:#333;"> Python Software Society of India.</a> </p>
-                <p class="col-md-4 text-center" id="footer-links">
-                    <a href="https://webchat.freenode.net/?channels=%23pyconindia" target="_blank">IRC</a> |
-                    <a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">Mailing List</a> |
-                    <a href="https://twitter.com/search?q=pyconindia" target="_blank">#pyconindia</a>
-                </p>
-            </div>
-        </footer>
+    <div class="footercol-md-12">
+        <p class="col-md-4 text-center"> Copyright &copy; 2016<a href="https://pssi.org.in/pyconindia/" style="color:#333;">Python Software Society of India.</a> </p>
+        <p class="col-md-4 text-center" id="footer-links">
+            <a href="https://webchat.freenode.net/?channels=%23pyconindia" target="_blank">IRC</a> |
+            <a href="https://mail.python.org/mailman/listinfo/inpycon" target="_blank">Mailing List</a> |
+            <a href="https://twitter.com/search?q=pyconindia" target="_blank">#pyconindia</a>
+        </p>
+    </div>
+</footer>
     </div>
 
 
@@ -569,24 +561,24 @@
     <script src="js/tweenmax.js"></script>
     <script src="js/ripple-config.js"></script>
 
-<script>
-$(function(){
-    $(window).scroll(function (event) {
-        var scroll = $(window).scrollTop();
+    <script>
+    $(function(){
+        $(window).scroll(function (event) {
+            var scroll = $(window).scrollTop();
 
-        if($(window).scrollTop() + $(window).height() == $(document).height() || scroll == 0)
-        {
-            $(".overbg").fadeIn('fast','swing');
-            // $(".skyline").fadeIn('fast','swing');
-        }
-        else
-        {
-            $(".overbg").fadeOut('fast','swing');
-            // $(".skyline").fadeOut('fast','swing');
-        }
+            if($(window).scrollTop() + $(window).height() == $(document).height() || scroll == 0)
+            {
+                $(".overbg").fadeIn('fast','swing');
+                // $(".skyline").fadeIn('fast','swing');
+            }
+            else
+            {
+                $(".overbg").fadeOut('fast','swing');
+                // $(".skyline").fadeOut('fast','swing');
+            }
+        });
     });
-});
-</script>
+    </script>
 
 </body>
 </html>

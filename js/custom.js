@@ -23,5 +23,11 @@ jQuery(document).ready(function($) {
             window.location.href = "/"+target;
         }
     });
-
+    // Set correct active class on page navigation.
+    set_active_nav();
 });
+
+function set_active_nav() {
+    var path = window.location.pathname;
+    $('#nav-sidebar a[href="'+ path +'"]').parent().addClass('active');
+}

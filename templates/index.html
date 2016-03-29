@@ -1,0 +1,79 @@
+{% extends "_base.jinja" %}
+
+{% block content %}
+<!-- ******home****** -->
+    <section id="home" class="home section">
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2">
+                <center>
+                    <img src="images/logolg.png" class="img-responsive" width="70%"/>
+                </center>
+            </div>
+            <div class="col-md-10 col-md-offset-1">
+                <br/>
+                <h4 class="text-center">
+                    PyCon India, the premier conference in India on using and developing the Python programming language is conducted annually by the Python developer community. It attracts the best Python programmers from across the country and abroad.
+                </h4>
+                <div class="items col-xs-12 col-sm-6 col-md-6 col-lg-6 clearfix">
+                    <div class="col-md-2" style="padding-top:15px">
+                        <img src="images/gear3.png" class=""/>
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="name"> Workshops </h2>
+                        <h4 class="date">
+                            September 23, 2016 [Friday]
+                        </h4>
+                    </div>
+                </div>
+                <div class="items col-xs-12 col-sm-6 col-md-6 col-lg-6 clearfix">
+                    <div class="col-md-2" style="padding-top:15px">
+                        <img src="images/mic.png" class=""/>
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class="name"> Conference </h2>
+                        <h4 class="date">
+                            September 24-25, 2016 [Saturday-Sunday]
+                        </h4>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div style="margin-top:30px;">
+                    <button id="js-ripple-btn" class="pymatbtn">
+                        <i class="fa fa-ticket"></i> Buy Ticket
+                        <svg class="ripple-obj" id="js-ripple">
+                            <use width="4" height="4" xlink:href="#ripply-scott" class="js-ripple"></use>
+                        </svg>
+                    </button>
+                    <a href="https://in.pycon.org/cfp/2016/proposals/" target="_blank">
+                        <button id="js-ripple-btn" class="pymatbtn">
+                            <i class="fa fa-pencil"></i> Submit Proposal
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//home-->
+
+
+    {% include "home/_speakers.html" %}
+    {% include "home/_schedule.html" %}
+    {% include "home/_venue.html" %}
+    {% include "home/_sponsors.html" %}
+
+    <!-- ******blog****** -->
+    <section id="blog" class="blog section" style="margin-bottom:60px;">
+        <div class="row text-center">
+            <h2 class="title text-center">
+                <img src="images/icons/blog.png" /><br/> WHAT'S HAPPENING?
+            </h2>
+            <div class="col-md-6">
+                {% include 'home/_feed-box.html' %}
+            </div>
+            <div class="col-md-6">
+                {% include 'home/_twitter-box.html' %}
+            </div>
+        </div>
+    </section>
+    <!--//blog-->
+{% endblock %}
