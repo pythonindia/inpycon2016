@@ -10,10 +10,7 @@ jQuery(document).ready(function($) {
 
         //store hash
         var target = this.hash;
-
-        // console.log(window.location.href);
-
-        if($(target).length>0) {
+        if($(target).length > 0) {
             $('body').scrollTo(target, {
                 'axis':'y',
                 duration: 700,
