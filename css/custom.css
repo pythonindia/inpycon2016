@@ -397,6 +397,21 @@ button {
     margin:40px 0 15px 0;
 }
 
+#sponsorship-download {
+   text-align: center;
+}
+
+#sponsorship-download > a {
+   padding: 1em;
+   background: #404040 ;
+   border-radius: 5px;
+   color: white;
+}
+
+#sponsorship-download > a:hover {
+   background: rgba(64, 64, 64, 0.82);
+}
+
 @media (max-width: 768px) {
 .section{
         margin-top:80px !important;
