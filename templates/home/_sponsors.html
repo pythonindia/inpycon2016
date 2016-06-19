@@ -1,59 +1,48 @@
 <!-- ******sponsors****** -->
-{% macro pybox(img_src='images/spon.png', href='#', description="", a_style="", type='') -%}
-    <div class="pybox sponsor {{ type }}">
-        <a href="{{ href }}" style="{{ a_style }}">
-            <center>
-                <img class="img-responsive" src="{{ img_src }}" />
-            </center>
-        </a>
+{% macro pybox(img_src='images/spon.png', href='#', description="", style="", type='') -%}
+    <a href="{{ href }}?ref=pyconindia2016" target="_blank">
+    <div class="pybox sponsor {{ type }}" style="{{ style }}">
+        <center><img class="img-responsive" src="{{ img_src }}" /></center>
         <p>{{ description }}</p>
     </div>
+    </a>
 {%- endmacro %}
 
 <section id="sponsors" class="sponsors section">
     <div class="row text-center">
          <h2 class="title text-center">
-            <img src="images/icons/sponsors.png" /><br/> SPONSORS
+            <img src="images/icons/sponsors.png" />SPONSORS
         </h2>
-        <div class="col-md-12">
+
+        <div id="sponsors--platimum" class="col-md-12">
             <h3 class="date text-center">Platinum</h3>
-            <br/>
-            <div class="col-md-6">
-                {{ pybox() }}
-            </div>
-            <div class="col-md-6">
-                {{ pybox() }}
-            </div>
+            <div class="col-md-6">{{ pybox() }}</div>
+            <div class="col-md-6">{{ pybox() }}</div>
         </div>
-        <div class="col-md-12">
+
+        <div id="sponsors--gold" class="col-md-12">
             <h3 class="date text-center">Gold</h3>
-            <br/>
             <div class="col-md-4">{{ pybox() }}</div>
-            <div class="col-md-4">{{ pybox() }}</div>
-            <div class="col-md-4">{{ pybox() }}</div>
+            <div class="col-md-4 gold">{{ pybox() }}</div>
+            <div class="col-md-4 gold">{{ pybox() }}</div>
         </div>
-        <div class="col-md-12">
+
+        <div id="sponsors--silver" class="col-md-12">
             <h3 class="date text-center">Silver</h3>
-            <br/>
             <div class="col-md-3 silver">
-                {{ pybox("images/ZeOmega-Logo.png", a_style="padding-top: 5em") }}
+                {{ pybox("images/ZeOmega-Logo.png",
+                          href="http://www.zeomega.com",
+                          style="padding-top: 5em") }}
             </div>
             <div class="col-md-3 silver">{{ pybox() }}</div>
             <div class="col-md-3 silver">{{ pybox() }}</div>
             <div class="col-md-3 silver">{{ pybox() }}</div>
-            <!-- <div class="col-md-3 silver">{{ pybox() }}</div>
-            <div class="col-md-3 silver">{{ pybox() }}</div> -->
         </div>
-        <div class="col-md-12">
+
+        <div id="sponsors--accomodation" class="col-md-12">
             <h3 class="date text-center">Accomodation</h3>
-            <br/>
-            <div class="col-md-6">
-                {{ pybox() }}
-            </div>
-            <div class="col-md-6">
-                {{ pybox() }}
-            </div>
+            <div class="col-md-6"> {{ pybox() }} </div>
+            <div class="col-md-6"> {{ pybox() }} </div>
         </div>
     </div>
 </section>
-<!--//sponsors-->

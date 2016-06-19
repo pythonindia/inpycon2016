@@ -241,15 +241,15 @@ section {
     margin-bottom: 10px;
     background: #fff url('../images/boxbg.png') right bottom no-repeat;
 }
-.pybox.sponsor {
+.sponsors .pybox {
     background: #fff;
     padding: 10px;
 }
-.pybox.sponsor a {
+.sponsors .pybox a {
     display: inline-block;
 }
 
-.silver .pybox {
+#sponsors--silver .pybox {
     min-height: 235px;
 }
 
