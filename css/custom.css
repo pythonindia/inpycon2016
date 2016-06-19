@@ -241,6 +241,9 @@ section {
     margin-bottom: 10px;
     background: #fff url('../images/boxbg.png') right bottom no-repeat;
 }
+.pybox.sponsor {
+    background: #fff;
+}
 
 
 .speakers {
