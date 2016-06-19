@@ -243,8 +243,15 @@ section {
 }
 .pybox.sponsor {
     background: #fff;
+    padding: 10px;
+}
+.pybox.sponsor a {
+    display: inline-block;
 }
 
+.silver .pybox {
+    min-height: 235px;
+}
 
 .speakers {
     /*margin-top:-80px;*/
