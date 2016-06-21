@@ -26,5 +26,8 @@ jQuery(document).ready(function($) {
 
 function set_active_nav() {
     var path = window.location.pathname;
+
+    // Remove the forward slash and base url in front of path name
+    path = path.replace(/^\/2016\//, '');
     $('#nav-sidebar a[href="'+ path +'"]').parent().addClass('active');
 }
