@@ -244,6 +244,9 @@ section {
 .sponsors .pybox {
     background: #fff;
     padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sponsors .pybox a {
     display: inline-block;
