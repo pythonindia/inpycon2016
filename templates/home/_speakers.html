@@ -1,47 +1,45 @@
-<!-- ******speakers****** -->
+{% macro speaker_box(name, photo, bio, github, twitter) %}
+    <div class="item col-md-6 col-sm-6 col-xs-12">
+        <div class="pybox speaker">
+            <div class="icon-holder text-center">
+                <img src="{{ photo }}" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
+            </div>
+            <div class="content">
+              <h3 class='speaker--name'>{{ name }}</h3>
+              <p class='speaker--bio'>{{ bio }}</p>
+              <a href="{{ github }}">
+                <i class="social fa fa-github-square fa-2x social-fb"></i>
+              </a>
+              <a href="{{ twitter }}">
+                    <i class="social fa fa-twitter-square fa-2x social-tw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
+
 <section id="speakers" class="speakers section">
     <div class="row text-center">
         <h2 class="title text-center">
             <img src="images/icons/team.png" /><br/> SPEAKERS
         </h2>
-        <div class="col-md-8 col-md-offset-2">
-            <div class="item col-md-6 col-sm-6 col-xs-12">
-                <div class="pybox">
-                    <div class="icon-holder text-center">
-                        <center>
-                            <img src="images/keynote.jpeg" class="img-responsive"/>
-                        </center>
-                    </div>
-                    <div class="content">
-                        <h4>TBA</h4>
-                        <a href="#">
-                            <i class="social fa fa-github-square fa-2x social-fb"></i>
-                        </a>
-                        <a href="#">
-                            <i class="social fa fa-twitter-square fa-2x social-tw"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-6 col-sm-6 col-xs-12">
-                <div class="pybox">
-                    <div class="icon-holder text-center">
-                        <center>
-                            <img src="images/keynote.jpeg" class="img-responsive"/>
-                        </center>
-                    </div>
-                    <div class="content">
-                        <h4>TBA</h4>
-                        <a href="#">
-                            <i class="social fa fa-github-square fa-2x social-fb"></i>
-                        </a>
-                        <a href="#">
-                            <i class="social fa fa-twitter-square fa-2x social-tw"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+
+        <div class="col-md-10 col-md-offset-1">
+            {{ speaker_box(name='Baishampayan Ghose',
+                           photo='images/speakers/baishampayan.jpg',
+                           bio='Baishampayan "BG" Ghose is CTO/Co-founder at Helpshift, Inc. BG is a
+                                career functional programmer with exposure to a wide variety of
+                                programming languages and paradigms. His areas of interests are
+                                Semantics of Programming Languages, Distributed Systems, Software
+                                Design and the intersection of Software, Culture and Society.',
+                           github='https://github.com/ghoseb',
+                           twitter='https://twitter.com/ghoseb') }}
+
+            {{ speaker_box(name='TBA',
+                           photo='images/keynote.jpg',
+                           bio='',
+                           github='',
+                           twitter='') }}
         </div>
     </div>
 </section>
-<!--//speakers-->
