@@ -73,6 +73,20 @@ nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
     color: #CCC;
     background-color: transparent;
 }
+.navbar .navbar--logo {
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+    .navbar .navbar-brand h2 {
+        display: none;
+    }
+    .navbar .navbar--logo {
+        width: 130px;
+        margin-left: 1em;
+    }
+}
+
+
 
 nav:hover .forAnimate{
     opacity: 1;
