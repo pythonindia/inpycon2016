@@ -96,9 +96,9 @@ section {
     padding-left: 15px;
 }
 
-.section {
+.section{
     min-height:100vh;
-    margin-bottom:130px;
+    margin-bottom:60px;
 }
 
 #footer-links > a {
@@ -269,7 +269,7 @@ section {
 
 .speakers {
     /*margin-top:-80px;*/
-    height: 100vh;
+    height: 130vh;
 }
 
 .speakers .social {
