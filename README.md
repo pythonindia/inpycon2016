@@ -9,7 +9,7 @@ pip install staticjinja
 To monitor your source directory for changes, and recompile files if they change, use `watch`:
 
 ```
-staticjinja watch
+./build.py & python -m SimpleHTTPServer && fg
 ```
 
 This will recursively search `./templates` for templates (any file whose name does not start with `.` or `_`) and build them to `.`.

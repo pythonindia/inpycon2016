@@ -80,10 +80,8 @@
                 <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
                     <ul class="py16navbar nav navbar-nav">
                         <li><a href="#home" class="scrollto"> HOME </a></li>
-                        <!--
                         <li><a href="#speakers" class="scrollto"> SPEAKERS </a></li>
                         <li><a href="#schedule" class="scrollto"> SCHEDULE </a></li>
-                         -->
                         <li><a href="#venue" class="scrollto"> VENUE </a></li>
                         <li><a href="#sponsors" class="scrollto"> SPONSORS </a></li>
                         <li><a href="https://in.pycon.org/blog/2016/"> BLOG </a></li>
@@ -231,7 +229,125 @@
         </div>
     </div>
 </section>
-    
+    <section id="schedule" class="schedule section">
+    <div class="row text-center">
+
+        <h2 class="title text-center"><img src="images/icons/schedule.png" /><br/> SCHEDULE</h2>
+
+        <div class="tabbable-panel">
+            <div class="tabbable-line">
+                <ul class="nav nav-tabs nav-justified responsive">
+                    
+                    <li class="col-md-4 active">
+                        <a href="#day1" data-toggle="tab">
+                            <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 23, 2016</h4>
+                        </a>
+                    </li>
+                    
+                    <li class="col-md-4 ">
+                        <a href="#day2" data-toggle="tab">
+                            <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 24, 2016</h4>
+                        </a>
+                    </li>
+                    
+                    <li class="col-md-4 ">
+                        <a href="#day3" data-toggle="tab">
+                            <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 25, 2016</h4>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content responsive">
+                    
+                    <div class="tab-pane active" id="day1">
+                        <p>Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants and a <br/>separate ticket is required to attend each workshop.</p>
+                        <div class="table-responsive text-left">
+                            <div class="col-md-10 col-md-offset-1 custyle">
+                                <table id="tableDiv" class="table custab">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:13%;" class="text-center pyred">TIME</th>
+                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
+                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr>
+                                            <td class="pyred">future3</td>
+                                            <td><center>Interesting1</center></td>
+                                            <td><center>Mighty-speaker1</center></td>
+                                            <td><center>Unknown-location1</center></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane " id="day2">
+                        <p>See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.</p>
+                        <div class="table-responsive text-left">
+                            <div class="col-md-10 col-md-offset-1 custyle">
+                                <table id="tableDiv" class="table custab">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:13%;" class="text-center pyred">TIME</th>
+                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
+                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr>
+                                            <td class="pyred">future3</td>
+                                            <td><center>Interesting1</center></td>
+                                            <td><center>Mighty-speaker2</center></td>
+                                            <td><center>Unknown-location2</center></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane " id="day3">
+                        <p></p>
+                        <div class="table-responsive text-left">
+                            <div class="col-md-10 col-md-offset-1 custyle">
+                                <table id="tableDiv" class="table custab">
+                                    <thead>
+                                        <tr>
+                                            <th style="width:13%;" class="text-center pyred">TIME</th>
+                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
+                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        <tr>
+                                            <td class="pyred">future3</td>
+                                            <td><center>Interest0ing1</center></td>
+                                            <td><center>Mighty-speaker3</center></td>
+                                            <td><center>Unknown-location3</center></td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- ******venue****** -->
 <section id="venue" class="venue section">
     <div class="row text-center">
@@ -418,11 +534,8 @@
 </footer>
     </div>
 
-
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/jquery.easing.1.3.js"></script>
@@ -449,6 +562,8 @@
                 // $(".skyline").fadeOut('fast','swing');
             }
         });
+
+        render_schedule('#schedule');
     });
     </script>
 
