@@ -160,21 +160,21 @@
   }, {
     "location": "Room 1",
     "time": "4:00 PM - 4:45 PM",
-    "title": "KeyNote - Van Lindberg",
-    "speaker": "Van Lindberg",
-    "link": ""
-  }, {
-    "location": "Room 1",
-    "time": "4:45 PM - 5:30 PM",
     "title": "Hacking the Python AST",
     "speaker": "Suhas",
     "link": "https://in.pycon.org/cfp/2016/proposals/hacking-the-python-ast~b6W7d/"
   }, {
     "location": "Room 3",
-    "time": "4:45 - 5:30 PM",
+    "time": "4:00 PM - 4:45 PM",
     "title": "The trends in choosing licenses in Python ecosystem",
     "speaker": "Anwesha Sarkar",
     "link": "https://in.pycon.org/cfp/2016/proposals/the-trends-in-choosing-licenses-in-python-ecosystem~er2we/"
+  },  {
+    "location": "Room 1",
+    "time": "4:45 PM - 5:30 PM",
+    "title": "KeyNote - Van Lindberg",
+    "speaker": "Van Lindberg",
+    "link": ""
   }]
 }, {
   "id": "day3",
