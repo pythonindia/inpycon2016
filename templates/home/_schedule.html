@@ -23,17 +23,23 @@
                                 <table id="tableDiv" class="table custab">
                                     <thead>
                                         <tr>
-                                            <th style="width:13%;" class="text-center pyred">TIME</th>
-                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:20%;" class="text-center pyred">TIME</th>
+                                            <th style="width:48%;" class="text-center pyred">TITLE</th>
                                             <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:12%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         {% for event in day.events %}
                                         <tr>
                                             <td class="pyred">{{ event.time }}</td>
-                                            <td><center>{{ event.title }}</center></td>
+                                            <td><center>
+                                            {% if event.link %}
+                                                <a href="{{ event.link }}?ref=schedule">{{ event.title }}</a>
+                                            {% else %}
+                                                {{ event.title }}
+                                            {% endif %}
+                                            </center></td>
                                             <td><center>{{ event.speaker }}</center></td>
                                             <td><center>{{ event.location }}</center></td>
                                         </tr>
