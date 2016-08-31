@@ -523,6 +523,19 @@ button {
     }
 
 }
+.speaker.pybox {
+    background-position-x: 175px;
+}
+.speaker--photo img {
+    margin: 0 auto;
+}
+.speaker--social-icon:hover .social,
+.speaker--social-icon:focus .social{
+    color: #da3127;
+}
+.speaker--bio {
+    font-size: 0.8em;
+}
 
 /* .....NavBar: Fully showing nav bar..... */
 @media (min-width: 1330px) {
