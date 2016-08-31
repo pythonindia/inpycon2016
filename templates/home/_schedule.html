@@ -24,23 +24,21 @@
                                     <thead>
                                         <tr>
                                             <th style="width:20%;" class="text-center pyred">TIME</th>
-                                            <th style="width:48%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:12%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         {% for event in day.events %}
                                         <tr>
                                             <td class="pyred">{{ event.time }}</td>
-                                            <td><center>
+                                            <td><center><strong>
                                             {% if event.link %}
-                                                <a href="{{ event.link }}?ref=schedule">{{ event.title }}</a>
+                                                <a href="{{ event.link }}?ref=schedule">{{ event.title }}</a><br><em>By {{ event.speaker }}</em>
                                             {% else %}
                                                 {{ event.title }}
                                             {% endif %}
-                                            </center></td>
-                                            <td><center>{{ event.speaker }}</center></td>
+                                            </strong></center></td>
                                             <td><center>{{ event.location }}</center></td>
                                         </tr>
                                         {% endfor %}
@@ -50,6 +48,9 @@
                         </div>
                     </div>
                     {% endfor %}
+                </div>
+                <div class="row text-center">
+                    <span class="note"><small><sup>*</sup>Note: These schedules are tentative and are subjected to change as per speakers availability and/or other reasons.</span></small>
                 </div>
             </div>
         </div>
