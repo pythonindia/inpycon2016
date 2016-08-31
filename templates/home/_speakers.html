@@ -1,5 +1,5 @@
 {% macro speaker_box(name, photo, bio, github, twitter) %}
-    <div class="item col-md-6 col-sm-6 col-xs-12">
+    <div class="item col-md-4 col-sm-6 col-xs-12">
         <div class="pybox speaker">
             <div class="icon-holder text-center">
                 <img src="{{ photo }}" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
@@ -45,6 +45,19 @@
                                 it for several years.',
                            github='https://github.com/amueller',
                            twitter='https://twitter.com/amuellerml') }}
+
+            {{ speaker_box(name='Van Lindberg',
+                           photo='images/speakers/vanl.jpg',
+                           bio="Van Lindberg is an engineer, IP and open source lawyer, and 
+                           part-time natural language hacker. He is a director, general counsel, 
+                           and past chair of the Python Software Foundation, a director of the 
+                           OpenStack Foundation, and Vice President and Associate General Counsel 
+                           for Rackspace. Lindberg wrote the O'Reilly book 'Intellectual Property and Open Source,' 
+                           and was named one of 'America's Top 12 Techiest Attorneys' by the American 
+                           Bar Association Journal.",
+                           github='https://github.com/vanl',
+                           twitter='https://twitter.com/VanL') }}
+
         </div>
     </div>
 </section>
