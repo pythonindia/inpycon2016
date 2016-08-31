@@ -22,6 +22,10 @@ jQuery(document).ready(function($) {
     });
     // Set correct active class on page navigation.
     set_active_nav();
+
+    // Set height of speaker box to be equal
+    $('.speaker-box').matchHeight();
+    $('.speaker-box > .pybox').matchHeight();
 });
 
 function set_active_nav() {
