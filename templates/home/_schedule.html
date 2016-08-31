@@ -6,13 +6,13 @@
         <div class="tabbable-panel">
             <div class="tabbable-line">
                 <ul class="nav nav-tabs nav-justified responsive">
-                    {% for day in schedule %}
+                    {%- for day in schedule -%}
                     <li class="col-md-4 {% if loop.index == 1 %}active{% endif %}">
                         <a href="#{{ day.id }}" data-toggle="tab">
                             <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;{{ day.date }}</h4>
                         </a>
                     </li>
-                    {% endfor %}
+                    {%- endfor -%}
                 </ul>
                 <div class="tab-content responsive">
                     {% for day in schedule %}
@@ -32,12 +32,12 @@
                                         {% for event in day.events %}
                                         <tr>
                                             <td class="pyred">{{ event.time }}</td>
-                                            <td><center><strong>
-                                            {% if event.link %}
-                                                <a href="{{ event.link }}?ref=schedule">{{ event.title }}</a><br><em>By {{ event.speaker }}</em>
-                                            {% else %}
-                                                {{ event.title }}
-                                            {% endif %}
+                                            <td><center>
+                                            {%- if event.link -%}
+                                                <strong><a href="{{ event.link }}?ref=schedule">{{ event.title }}</a></strong><br><em>By {{ event.speaker }}</em>
+                                            {%- else -%}
+                                                <strong>{{ event.title }}</strong>
+                                            {%- endif -%}
                                             </strong></center></td>
                                             <td><center>{{ event.location }}</center></td>
                                         </tr>
