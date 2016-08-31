@@ -535,6 +535,7 @@ button {
 }
 .speaker--bio {
     font-size: 0.8em;
+    text-align: justify;
 }
 
 /* .....NavBar: Fully showing nav bar..... */
