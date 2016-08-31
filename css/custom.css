@@ -242,7 +242,7 @@ section {
 }
 
 .teams .pybox,.sponsors .pybox,.teams .pybox {
-    min-height:350px;
+    min-height: 255px;
     padding:25px;
     margin:10px;
 }
