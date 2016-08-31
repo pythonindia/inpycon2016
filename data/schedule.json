@@ -243,7 +243,7 @@
   }, {
     "location": "Room 2",
     "time": "12:35 PM - 1:00 PM",
-    "title": "Deploying your python backend with (almost) zero cost",
+    "title": "Load testing using Locust.io",
     "speaker": "Vinay Babu",
     "link": "https://in.pycon.org/cfp/2016/proposals/load-testing-using-locustio~eZ0Eb/"
   }, {
