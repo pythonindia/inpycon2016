@@ -6,13 +6,13 @@
         <div class="tabbable-panel">
             <div class="tabbable-line">
                 <ul class="nav nav-tabs nav-justified responsive">
-                    {% for day in schedule %}
+                    {%- for day in schedule -%}
                     <li class="col-md-4 {% if loop.index == 1 %}active{% endif %}">
                         <a href="#{{ day.id }}" data-toggle="tab">
                             <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;{{ day.date }}</h4>
                         </a>
                     </li>
-                    {% endfor %}
+                    {%- endfor -%}
                 </ul>
                 <div class="tab-content responsive">
                     {% for day in schedule %}
@@ -24,9 +24,8 @@
                                     <thead>
                                         <tr>
                                             <th style="width:20%;" class="text-center pyred">TIME</th>
-                                            <th style="width:48%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:12%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -34,13 +33,12 @@
                                         <tr>
                                             <td class="pyred">{{ event.time }}</td>
                                             <td><center>
-                                            {% if event.link %}
-                                                <a href="{{ event.link }}?ref=schedule">{{ event.title }}</a>
-                                            {% else %}
-                                                {{ event.title }}
-                                            {% endif %}
-                                            </center></td>
-                                            <td><center>{{ event.speaker }}</center></td>
+                                            {%- if event.link -%}
+                                                <strong><a href="{{ event.link }}?ref=schedule" target="_blank" title="{{ event.title }}">{{ event.title }}</a></strong><br><em>By {{ event.speaker }}</em>
+                                            {%- else -%}
+                                                <strong>{{ event.title }}</strong>
+                                            {%- endif -%}
+                                            </strong></center></td>
                                             <td><center>{{ event.location }}</center></td>
                                         </tr>
                                         {% endfor %}
@@ -50,6 +48,9 @@
                         </div>
                     </div>
                     {% endfor %}
+                </div>
+                <div class="row text-center">
+                    <span class="note"><small><sup>*</sup>Note: These schedules are tentative and are subjected to change as per speakers availability and/or other reasons.</span></small>
                 </div>
             </div>
         </div>

@@ -242,7 +242,7 @@ section {
 }
 
 .teams .pybox,.sponsors .pybox,.teams .pybox {
-    min-height:350px;
+    min-height: 255px;
     padding:25px;
     margin:10px;
 }
@@ -522,6 +522,20 @@ button {
         opacity: 0;
     }
 
+}
+.speaker.pybox {
+    background-position-x: 175px;
+}
+.speaker--photo img {
+    margin: 0 auto;
+}
+.speaker--social-icon:hover .social,
+.speaker--social-icon:focus .social{
+    color: #da3127;
+}
+.speaker--bio {
+    font-size: 0.8em;
+    text-align: justify;
 }
 
 /* .....NavBar: Fully showing nav bar..... */

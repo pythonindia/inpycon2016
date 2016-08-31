@@ -177,24 +177,24 @@
             <img src="images/icons/team.png" /><br/> KEYNOTE SPEAKERS
         </h2>
 
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-12">
             
-    <div class="item col-md-6 col-sm-6 col-xs-12">
+    <div class="item col-md-4 col-sm-6 col-xs-12">
         <div class="pybox speaker">
-            <div class="icon-holder text-center">
+            <figure class="icon-holder text-center speaker--photo">
                 <img src="images/speakers/baishampayan.jpg" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
-            </div>
+            </figure>
             <div class="content">
               <h3 class='speaker--name'>Baishampayan Ghose</h3>
-              <p class='speaker--bio'>Baishampayan "BG" Ghose is CTO/Co-founder at Helpshift, Inc. BG is a
+              <p class='speaker--bio'>Baishampayan "BG" Ghose is <strong>CTO/Co-founder at Helpshift, Inc</strong>. BG is a
                                 career functional programmer with exposure to a wide variety of
                                 programming languages and paradigms. His areas of interests are
                                 Semantics of Programming Languages, Distributed Systems, Software
                                 Design and the intersection of Software, Culture and Society.</p>
-              <a href="https://github.com/ghoseb">
+              <a class='speaker--social-icon' target="_blank" href="https://github.com/ghoseb">
                 <i class="social fa fa-github-square fa-2x social-fb"></i>
               </a>
-              <a href="https://twitter.com/ghoseb">
+              <a class='speaker--social-icon' target="_blank" href="https://twitter.com/ghoseb">
                     <i class="social fa fa-twitter-square fa-2x social-tw"></i>
                 </a>
             </div>
@@ -203,28 +203,49 @@
 
 
             
-    <div class="item col-md-6 col-sm-6 col-xs-12">
+    <div class="item col-md-4 col-sm-6 col-xs-12">
         <div class="pybox speaker">
-            <div class="icon-holder text-center">
+            <figure class="icon-holder text-center speaker--photo">
                 <img src="images/speakers/andreas.jpg" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
-            </div>
+            </figure>
             <div class="content">
               <h3 class='speaker--name'>Andreas Mueller</h3>
-              <p class='speaker--bio'>Andreas is a Research Engineer at the NYU Center for Data Science,
+              <p class='speaker--bio'>Andreas is <strong>a Research Engineer at the NYU Center for Data Science</strong>,
                                 building open source software for data science. Previously he was
                                 a Machine Learning Scientist at Amazon, working on computer vision
                                 and forecasting problems. He is one of the core developers of the
                                 scikit-learn machine learning library, and he has been co-maintaining
                                 it for several years.</p>
-              <a href="https://github.com/amueller">
+              <a class='speaker--social-icon' target="_blank" href="https://github.com/amueller">
                 <i class="social fa fa-github-square fa-2x social-fb"></i>
               </a>
-              <a href="https://twitter.com/amuellerml">
+              <a class='speaker--social-icon' target="_blank" href="https://twitter.com/amuellerml">
                     <i class="social fa fa-twitter-square fa-2x social-tw"></i>
                 </a>
             </div>
         </div>
     </div>
+
+
+            
+    <div class="item col-md-4 col-sm-6 col-xs-12">
+        <div class="pybox speaker">
+            <figure class="icon-holder text-center speaker--photo">
+                <img src="images/speakers/vanl.jpg" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
+            </figure>
+            <div class="content">
+              <h3 class='speaker--name'>Van Lindberg</h3>
+              <p class='speaker--bio'>Van Lindberg is <strong>an engineer, IP and open source lawyer, and part-time natural language hacker</strong>. He is a director, general counsel, and past chair of the PSF, a director of the OpenStack Foundation, and Vice President and Associate General Counsel for Rackspace. Lindberg wrote the 'Intellectual Property and Open Source', and was named one of 'America's Top 12 Techiest Attorneys'.</p>
+              <a class='speaker--social-icon' target="_blank" href="https://github.com/vanl">
+                <i class="social fa fa-github-square fa-2x social-fb"></i>
+              </a>
+              <a class='speaker--social-icon' target="_blank" href="https://twitter.com/VanL">
+                    <i class="social fa fa-twitter-square fa-2x social-tw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
 
         </div>
     </div>
@@ -236,27 +257,19 @@
 
         <div class="tabbable-panel">
             <div class="tabbable-line">
-                <ul class="nav nav-tabs nav-justified responsive">
-                    
-                    <li class="col-md-4 active">
+                <ul class="nav nav-tabs nav-justified responsive"><li class="col-md-4 active">
                         <a href="#day1" data-toggle="tab">
                             <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 23, 2016</h4>
                         </a>
-                    </li>
-                    
-                    <li class="col-md-4 ">
+                    </li><li class="col-md-4 ">
                         <a href="#day2" data-toggle="tab">
                             <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 24, 2016</h4>
                         </a>
-                    </li>
-                    
-                    <li class="col-md-4 ">
+                    </li><li class="col-md-4 ">
                         <a href="#day3" data-toggle="tab">
                             <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 25, 2016</h4>
                         </a>
-                    </li>
-                    
-                </ul>
+                    </li></ul>
                 <div class="tab-content responsive">
                     
                     <div class="tab-pane active" id="day1">
@@ -267,87 +280,51 @@
                                     <thead>
                                         <tr>
                                             <th style="width:20%;" class="text-center pyred">TIME</th>
-                                            <th style="width:48%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:12%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         
                                         <tr>
                                             <td class="pyred">10:00 AM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/?ref=schedule"> Demystifying the Django REST Framework: Web devleopment</a>
-                                            
-                                            </center></td>
-                                            <td><center>Haris Ibrahim K. V</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/?ref=schedule" target="_blank" title=" Demystifying the Django REST Framework: Web devleopment"> Demystifying the Django REST Framework: Web devleopment</a></strong><br><em>By Haris Ibrahim K. V</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:00 AM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/docker-workshop~dyXwb/?ref=schedule">Docker Workshop: Infrastructure</a>
-                                            
-                                            </center></td>
-                                            <td><center>Lalatendu Mohanty</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/docker-workshop~dyXwb/?ref=schedule" target="_blank" title="Docker Workshop: Infrastructure">Docker Workshop: Infrastructure</a></strong><br><em>By Lalatendu Mohanty</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:00 AM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/talking-to-machines-optimizing-neural-networks-with-theano~ep2rb/?ref=schedule"> Talking to Machines : Optimizing Neural Networks with Theano: Scientific Computing</a>
-                                            
-                                            </center></td>
-                                            <td><center>kumarkrishna</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/talking-to-machines-optimizing-neural-networks-with-theano~ep2rb/?ref=schedule" target="_blank" title=" Talking to Machines : Optimizing Neural Networks with Theano: Scientific Computing"> Talking to Machines : Optimizing Neural Networks with Theano: Scientific Computing</a></strong><br><em>By kumarkrishna</em></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">1:00 PM - 2:00 PM</td>
-                                            <td><center>
-                                            
-                                                Lunch
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Lunch</strong></strong></center></td>
                                             <td><center>Dining Hall</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:00 PM - 5:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/scaling-django-with-kubernetes~boONb/?ref=schedule"> Scaling Django with Kubernetes: Infrastructure</a>
-                                            
-                                            </center></td>
-                                            <td><center>Saket</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/scaling-django-with-kubernetes~boONb/?ref=schedule" target="_blank" title=" Scaling Django with Kubernetes: Infrastructure"> Scaling Django with Kubernetes: Infrastructure</a></strong><br><em>By Saket</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:00 PM - 5:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/productive-coding-with-pycharm~aA11a/?ref=schedule"> Productive Coding with PyCharm</a>
-                                            
-                                            </center></td>
-                                            <td><center>paul Everitt</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/productive-coding-with-pycharm~aA11a/?ref=schedule" target="_blank" title=" Productive Coding with PyCharm"> Productive Coding with PyCharm</a></strong><br><em>By paul Everitt</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:00 PM - 5:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/building-a-lie-detector-multi-modal-sentiment-analysis~epk1d/?ref=schedule">Building a Lie Detector: Multi-Modal Sentiment Analysis: Scientific Computing</a>
-                                            
-                                            </center></td>
-                                            <td><center>Mimansa Jaiswal</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-a-lie-detector-multi-modal-sentiment-analysis~epk1d/?ref=schedule" target="_blank" title="Building a Lie Detector: Multi-Modal Sentiment Analysis: Scientific Computing">Building a Lie Detector: Multi-Modal Sentiment Analysis: Scientific Computing</a></strong><br><em>By Mimansa Jaiswal</em></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
@@ -365,241 +342,135 @@
                                     <thead>
                                         <tr>
                                             <th style="width:20%;" class="text-center pyred">TIME</th>
-                                            <th style="width:48%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:12%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         
                                         <tr>
                                             <td class="pyred">9:15 AM - 9:30 AM</td>
-                                            <td><center>
-                                            
-                                                Introduction and KG Award
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Introduction and KG Award</strong></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">9:30 AM - 10:15 AM</td>
-                                            <td><center>
-                                            
-                                                KeyNote
-                                            
-                                            </center></td>
-                                            <td><center>Baishampayan Ghose</center></td>
+                                            <td><center><strong>KeyNote</strong></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:15 AM - 10:45 AM</td>
-                                            <td><center>
-                                            
-                                                Break
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Break</strong></strong></center></td>
                                             <td><center>Dining Hall</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:45 AM - 11:30 AM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/continuous-integration-for-data-scientists~ej0zb/?ref=schedule">Continuous Integration for Data Scientists</a>
-                                            
-                                            </center></td>
-                                            <td><center>Jaidev Deshpande</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/continuous-integration-for-data-scientists~ej0zb/?ref=schedule" target="_blank" title="Continuous Integration for Data Scientists">Continuous Integration for Data Scientists</a></strong><br><em>By Jaidev Deshpande</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:45 AM - 11:30 AM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/flying-a-drone~aMZQb/?ref=schedule">Flying A Drone</a>
-                                            
-                                            </center></td>
-                                            <td><center>Dinesh Kumar</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/flying-a-drone~aMZQb/?ref=schedule" target="_blank" title="Flying A Drone">Flying A Drone</a></strong><br><em>By Dinesh Kumar</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:45 AM - 11:30 AM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/good-bye-call-stack-hello-event-driven-architectures~erYkd/?ref=schedule">Good Bye, Call Stack; Hello, Event Driven Architectures!</a>
-                                            
-                                            </center></td>
-                                            <td><center>Anvith Shivakumara</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/good-bye-call-stack-hello-event-driven-architectures~erYkd/?ref=schedule" target="_blank" title="Good Bye, Call Stack; Hello, Event Driven Architectures!">Good Bye, Call Stack; Hello, Event Driven Architectures!</a></strong><br><em>By Anvith Shivakumara</em></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">11:30 AM - 12:15 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/concurrency-in-modern-robots-introducing-the-robot-operating-system~avYge/?ref=schedule">Concurrency in modern Robots: Introducing the Robot Operating System.</a>
-                                            
-                                            </center></td>
-                                            <td><center>Shivam</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/concurrency-in-modern-robots-introducing-the-robot-operating-system~avYge/?ref=schedule" target="_blank" title="Concurrency in modern Robots: Introducing the Robot Operating System.">Concurrency in modern Robots: Introducing the Robot Operating System.</a></strong><br><em>By Shivam</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">11:30 AM - 12:15 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/building-companion-chatbot-with-python~dN8Ka/?ref=schedule">Building companion chatbot with Python</a>
-                                            
-                                            </center></td>
-                                            <td><center>Mimansa Jaiswal</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-companion-chatbot-with-python~dN8Ka/?ref=schedule" target="_blank" title="Building companion chatbot with Python">Building companion chatbot with Python</a></strong><br><em>By Mimansa Jaiswal</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">11:30 AM - 12:15 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/testing-native-binaries-using-cffi-and-pytest~azvra/?ref=schedule">Testing native binaries using cffi and py.test</a>
-                                            
-                                            </center></td>
-                                            <td><center>Noufal Ibrahim</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/testing-native-binaries-using-cffi-and-pytest~azvra/?ref=schedule" target="_blank" title="Testing native binaries using cffi and py.test">Testing native binaries using cffi and py.test</a></strong><br><em>By Noufal Ibrahim</em></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">12:15 PM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/big-data-analysis-using-pyspark~b8Mld/?ref=schedule">Big Data Analysis using PySpark</a>
-                                            
-                                            </center></td>
-                                            <td><center>Shagun Sodhani</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/big-data-analysis-using-pyspark~b8Mld/?ref=schedule" target="_blank" title="Big Data Analysis using PySpark">Big Data Analysis using PySpark</a></strong><br><em>By Shagun Sodhani</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">12:15 PM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/generators-inside-out~b2WPd/?ref=schedule">Generators Inside Out</a>
-                                            
-                                            </center></td>
-                                            <td><center>Anand Chitipothu</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/generators-inside-out~b2WPd/?ref=schedule" target="_blank" title="Generators Inside Out">Generators Inside Out</a></strong><br><em>By Anand Chitipothu</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">12:15 PM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                Jet Brains - Sponsored Talk
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Jet Brains - Sponsored Talk</strong></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">1:00 PM - 2:00 PM</td>
-                                            <td><center>
-                                            
-                                                Lunch
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Lunch</strong></strong></center></td>
                                             <td><center>Dining Hall</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:00 PM - 2:45 PM</td>
-                                            <td><center>
-                                            
-                                                Lightning Talk
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Lightning Talk</strong></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:45 PM - 3:30 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/real-time-sentiment-analysis-with-apache-storm-and-python~epzrb/?ref=schedule">Real time Sentiment Analysis with Apache Storm and Python</a>
-                                            
-                                            </center></td>
-                                            <td><center>Shaik Asifullah</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/real-time-sentiment-analysis-with-apache-storm-and-python~epzrb/?ref=schedule" target="_blank" title="Real time Sentiment Analysis with Apache Storm and Python">Real time Sentiment Analysis with Apache Storm and Python</a></strong><br><em>By Shaik Asifullah</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:45 PM - 3:30 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/helix-and-salt-case-study-in-high-volume-and-distributed-python-applications~aAm1a/?ref=schedule">Helix and Salt: Case study in high volume and distributed python applications</a>
-                                            
-                                            </center></td>
-                                            <td><center>Akhil Malik</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/helix-and-salt-case-study-in-high-volume-and-distributed-python-applications~aAm1a/?ref=schedule" target="_blank" title="Helix and Salt: Case study in high volume and distributed python applications">Helix and Salt: Case study in high volume and distributed python applications</a></strong><br><em>By Akhil Malik</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:45 PM - 3:30 PM</td>
-                                            <td><center>
-                                            
-                                                RedHat - Sponsored Talk
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>RedHat - Sponsored Talk</strong></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">3:30 PM - 4:00 PM</td>
-                                            <td><center>
-                                            
-                                                Break - Tea & Snacks
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Break - Tea & Snacks</strong></strong></center></td>
                                             <td><center>Dining Hall</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">4:00 PM - 4:45 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/hacking-the-python-ast~b6W7d/?ref=schedule">Hacking the Python AST</a>
-                                            
-                                            </center></td>
-                                            <td><center>Suhas</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/hacking-the-python-ast~b6W7d/?ref=schedule" target="_blank" title="Hacking the Python AST">Hacking the Python AST</a></strong><br><em>By Suhas</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">4:00 PM - 4:45 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/the-trends-in-choosing-licenses-in-python-ecosystem~er2we/?ref=schedule">The trends in choosing licenses in Python ecosystem</a>
-                                            
-                                            </center></td>
-                                            <td><center>Anwesha Sarkar</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/the-trends-in-choosing-licenses-in-python-ecosystem~er2we/?ref=schedule" target="_blank" title="The trends in choosing licenses in Python ecosystem">The trends in choosing licenses in Python ecosystem</a></strong><br><em>By Anwesha Sarkar</em></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">4:45 PM - 5:30 PM</td>
-                                            <td><center>
-                                            
-                                                KeyNote - Van Lindberg
-                                            
-                                            </center></td>
-                                            <td><center>Van Lindberg</center></td>
+                                            <td><center><strong>KeyNote - Van Lindberg</strong></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
@@ -617,109 +488,63 @@
                                     <thead>
                                         <tr>
                                             <th style="width:20%;" class="text-center pyred">TIME</th>
-                                            <th style="width:48%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:12%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         
                                         <tr>
                                             <td class="pyred">9:30 AM - 10:15 AM</td>
-                                            <td><center>
-                                            
-                                                KeyNote
-                                            
-                                            </center></td>
-                                            <td><center>Andreas Mueller</center></td>
+                                            <td><center><strong>KeyNote</strong></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:15 AM - 10:45 AM</td>
-                                            <td><center>
-                                            
-                                                Break
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Break</strong></strong></center></td>
                                             <td><center>Dining Hall</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:45 AM - 11:30 AM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/algorithmic-music-generation~dBrxd/?ref=schedule">Algorithmic Music Generation</a>
-                                            
-                                            </center></td>
-                                            <td><center>Padmaja</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/algorithmic-music-generation~dBrxd/?ref=schedule" target="_blank" title="Algorithmic Music Generation">Algorithmic Music Generation</a></strong><br><em>By Padmaja</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:45 AM - 11:30 AM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/open-source-health-monitoring-and-evaluation-systems-using-python~dywVa/?ref=schedule">Open source health monitoring and evaluation systems using python</a>
-                                            
-                                            </center></td>
-                                            <td><center>Sandeep Nagar</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/open-source-health-monitoring-and-evaluation-systems-using-python~dywVa/?ref=schedule" target="_blank" title="Open source health monitoring and evaluation systems using python">Open source health monitoring and evaluation systems using python</a></strong><br><em>By Sandeep Nagar</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">10:45 AM - 11:30 AM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/realtime-microservices-with-server-side-flux~bWqXe/?ref=schedule">Realtime microservices with server side Flux</a>
-                                            
-                                            </center></td>
-                                            <td><center>Ratnadeep Debnath</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/realtime-microservices-with-server-side-flux~bWqXe/?ref=schedule" target="_blank" title="Realtime microservices with server side Flux">Realtime microservices with server side Flux</a></strong><br><em>By Ratnadeep Debnath</em></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">11:30 AM - 12:15 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/dont-write-tests-generate-them~epRXb/?ref=schedule">Don't write tests, generate them!</a>
-                                            
-                                            </center></td>
-                                            <td><center>Puneeth Chaganti</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/dont-write-tests-generate-them~epRXb/?ref=schedule" target="_blank" title="Don't write tests, generate them!">Don't write tests, generate them!</a></strong><br><em>By Puneeth Chaganti</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">11:30 AM - 12:15 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/creating-a-recommendation-engine-based-on-nlp-and-contextual-word-embeddings~aOZGe/?ref=schedule">Creating a recommendation engine based on NLP and contextual word embeddings</a>
-                                            
-                                            </center></td>
-                                            <td><center>Manas Ranjan Kar</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/creating-a-recommendation-engine-based-on-nlp-and-contextual-word-embeddings~aOZGe/?ref=schedule" target="_blank" title="Creating a recommendation engine based on NLP and contextual word embeddings">Creating a recommendation engine based on NLP and contextual word embeddings</a></strong><br><em>By Manas Ranjan Kar</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">11:30 AM - 12:15 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/containerize-upstream-projects-effortlessly~er9kd/?ref=schedule">CentOS Community Container Pipeline</a>
-                                            
-                                            </center></td>
-                                            <td><center>Bamacharan Kundu</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/containerize-upstream-projects-effortlessly~er9kd/?ref=schedule" target="_blank" title="CentOS Community Container Pipeline">CentOS Community Container Pipeline</a></strong><br><em>By Bamacharan Kundu</em></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">12:15 PM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/financial-modelling-and-simulation-with-python-using-numpy-scipy-matplotlib-and-pandas~b69Qa/?ref=schedule">Financial Modelling and Simulation with Python: using Numpy, Scipy, Matplotlib and Pandas</a>
-                                            
-                                            </center></td>
-                                            <td><center>Saurabh Jaiswal</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/financial-modelling-and-simulation-with-python-using-numpy-scipy-matplotlib-and-pandas~b69Qa/?ref=schedule" target="_blank" title="Financial Modelling and Simulation with Python: using Numpy, Scipy, Matplotlib and Pandas">Financial Modelling and Simulation with Python: using Numpy, Scipy, Matplotlib and Pandas</a></strong><br><em>By Saurabh Jaiswal</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
@@ -747,89 +572,49 @@
                                         
                                         <tr>
                                             <td class="pyred">12:15 PM - 1:00 PM</td>
-                                            <td><center>
-                                            
-                                                Digital Ocean - Sponsored Talk
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Digital Ocean - Sponsored Talk</strong></strong></center></td>
                                             <td><center>Room 3</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">1:00 PM - 2:00 PM</td>
-                                            <td><center>
-                                            
-                                                Lunch
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Lunch</strong></strong></center></td>
                                             <td><center>Dining Hall</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:00 PM - 2:45 PM</td>
-                                            <td><center>
-                                            
-                                                Lightning Talk
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Lightning Talk</strong></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:45 PM - 3:30 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/building-an-automatic-keyphrase-extraction-system-using-nltk-in-python~e9g4b/?ref=schedule">Building an automatic keyphrase extraction system using NLTK in Python</a>
-                                            
-                                            </center></td>
-                                            <td><center>Prastut Kumar</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-an-automatic-keyphrase-extraction-system-using-nltk-in-python~e9g4b/?ref=schedule" target="_blank" title="Building an automatic keyphrase extraction system using NLTK in Python">Building an automatic keyphrase extraction system using NLTK in Python</a></strong><br><em>By Prastut Kumar</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">2:45 PM - 3:30 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/building-a-secure-iot-platform-using-paho-and-flask~eZ8vb/?ref=schedule">Building a secure IoT platform using Paho and Flask</a>
-                                            
-                                            </center></td>
-                                            <td><center>Jaimon Jose</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-a-secure-iot-platform-using-paho-and-flask~eZ8vb/?ref=schedule" target="_blank" title="Building a secure IoT platform using Paho and Flask">Building a secure IoT platform using Paho and Flask</a></strong><br><em>By Jaimon Jose</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">3:30 PM - 4:00 PM</td>
-                                            <td><center>
-                                            
-                                                Break - Tea & Snacks
-                                            
-                                            </center></td>
-                                            <td><center></center></td>
+                                            <td><center><strong>Break - Tea & Snacks</strong></strong></center></td>
                                             <td><center>Dining Hall</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">4:00 PM - 4:45 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/python-byte-code-hacks~enODa/?ref=schedule">Python Byte Code hacks</a>
-                                            
-                                            </center></td>
-                                            <td><center>Vijay Kumar</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/python-byte-code-hacks~enODa/?ref=schedule" target="_blank" title="Python Byte Code hacks">Python Byte Code hacks</a></strong><br><em>By Vijay Kumar</em></strong></center></td>
                                             <td><center>Room 1</center></td>
                                         </tr>
                                         
                                         <tr>
                                             <td class="pyred">4:45 - 5:30 PM</td>
-                                            <td><center>
-                                            
-                                                <a href="https://in.pycon.org/cfp/2016/proposals/micropython-porting-python-to-microcontrollers~avZga/?ref=schedule">MicroPython - Porting python to microcontrollers </a>
-                                            
-                                            </center></td>
-                                            <td><center>Aswin Venu</center></td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/micropython-porting-python-to-microcontrollers~avZga/?ref=schedule" target="_blank" title="MicroPython - Porting python to microcontrollers ">MicroPython - Porting python to microcontrollers </a></strong><br><em>By Aswin Venu</em></strong></center></td>
                                             <td><center>Room 2</center></td>
                                         </tr>
                                         
@@ -839,6 +624,9 @@
                         </div>
                     </div>
                     
+                </div>
+                <div class="row text-center">
+                    <span class="note"><small><sup>*</sup>Note: These schedules are tentative and are subjected to change as per speakers availability and/or other reasons.</span></small>
                 </div>
             </div>
         </div>
@@ -899,44 +687,29 @@
              <img src="images/icons/sponsors.png"/><br/>SPONSORS
         </h2>
 
-        <div id="sponsors--platimum" class="col-md-12">
-            <h3 class="date text-center">Platinum</h3>
-            <div class="col-md-6"><a href="#?ref=pyconindia2016" target="_blank">
-    <div class="pybox sponsor " style="">
-        <center><img class="img-responsive" src="images/spon.png" /></center>
-        <p></p>
-    </div>
-    </a></div>
-            <div class="col-md-6"><a href="#?ref=pyconindia2016" target="_blank">
-    <div class="pybox sponsor " style="">
-        <center><img class="img-responsive" src="images/spon.png" /></center>
-        <p></p>
-    </div>
-    </a></div>
-        </div>
+         
 
         <div id="sponsors--gold" class="col-md-12">
             <h3 class="date text-center">Gold</h3>
             <div class="col-md-4 gold"><a href="https://www.jetbrains.com?ref=pyconindia2016" target="_blank">
-    <div class="pybox sponsor " style="padding-top: 5em">
-        <center><img class="img-responsive" src="images/logo_JetBrains_3.svg" /></center>
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/jetbrains.svg" /></center>
         <p></p>
     </div>
     </a></div>
             <div class="col-md-4 gold"><a href="https://www.redhat.com/en?ref=pyconindia2016" target="_blank">
-    <div class="pybox sponsor " style="padding-top: 5em">
-        <center><img class="img-responsive" src="images/spo5.png" /></center>
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/redhat.png" /></center>
         <p></p>
     </div>
     </a></div>
             <div class="col-md-4 gold"><a href="http://www.digitalocean.com?ref=pyconindia2016" target="_blank">
-    <div class="pybox sponsor " style="padding-top: 5em">
-        <center><img class="img-responsive" src="images/digital_ocean_logo.png" /></center>
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/digital-ocean.png" /></center>
         <p></p>
     </div>
     </a></div>
-        </div>
-
+        </div> 
 
         <div id="sponsors--silver" class="col-md-12">
             <h3 class="date text-center">Silver</h3>
@@ -966,7 +739,7 @@
         <p></p>
     </div>
     </a></div>
-        </div>
+        </div> 
     </div>
 </section>
 
@@ -1058,8 +831,6 @@
                 // $(".skyline").fadeOut('fast','swing');
             }
         });
-
-        render_schedule('#schedule');
     });
     </script>
 
