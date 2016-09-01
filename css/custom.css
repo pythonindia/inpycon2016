@@ -127,7 +127,7 @@ section {
     position: fixed;
     background-position:bottom;
     background-repeat: repeat-x;
-    z-index: 0;
+    z-index: -1;
     bottom: 0px;
 }
 
@@ -538,7 +538,12 @@ button {
 
 }
 .speaker.pybox {
-    background-position-x: 195px;
+    background-size: 55%;
+}
+@media (max-width: 768px) {
+    .speaker.pybox {
+        background-size: 10%;
+    }
 }
 .speaker--photo img {
     margin: 0 auto;
