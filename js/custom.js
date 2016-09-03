@@ -22,9 +22,16 @@ jQuery(document).ready(function($) {
     });
     // Set correct active class on page navigation.
     set_active_nav();
+
+    // Set height of speaker box to be equal
+    $('.speaker-box').matchHeight();
+    $('.speaker-box > .pybox').matchHeight();
 });
 
 function set_active_nav() {
     var path = window.location.pathname;
+
+    // Remove the forward slash and base url in front of path name
+    path = path.replace(/^\/2016\//, '');
     $('#nav-sidebar a[href="'+ path +'"]').parent().addClass('active');
 }

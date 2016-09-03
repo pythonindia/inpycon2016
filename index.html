@@ -66,8 +66,8 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">
                         <!-- Brand -->
-                        <h2 class="visible-xs" style="margin:0;padding:5px 10px;">Pycon India 2016</h2>
-                        <img class="hidden-xs img-responsive" src="images/logosm.png" />
+                        <h2 class="text-hide">Pycon India 2016</h2>
+                        <img class="img-responsive navbar--logo" src="images/logosm.png" />
                     </a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -80,13 +80,11 @@
                 <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
                     <ul class="py16navbar nav navbar-nav">
                         <li><a href="#home" class="scrollto"> HOME </a></li>
-                        <!--
                         <li><a href="#speakers" class="scrollto"> SPEAKERS </a></li>
                         <li><a href="#schedule" class="scrollto"> SCHEDULE </a></li>
-                         -->
                         <li><a href="#venue" class="scrollto"> VENUE </a></li>
                         <li><a href="#sponsors" class="scrollto"> SPONSORS </a></li>
-                        <li><a href="https://in.pycon.org/blog/"> BLOG </a></li>
+                        <li><a href="https://in.pycon.org/blog/2016/"> BLOG </a></li>
                         <li><a href="sponsorship.html">SPONSORSHIP</a></li>
                         <li><a href="faq.html">FAQ </a></li>
                         <!-- <li><a href="/#"> TEAM </a></li> -->
@@ -159,9 +157,9 @@
                             </svg>
                         </button>
                     </a>
-                    <a href="https://in.pycon.org/cfp/2016/proposals/" target="_blank">
-                        <button id="js-ripple-btn" class="pymatbtn">
-                            <i class="fa fa-pencil"></i> Submit Proposal
+                    <a href="#schedule">
+                        <button id="js-ripple-btn" class="pymatbtn" style="margin-top:10px;">
+                            <i class="fa fa-pencil"></i> Schedule
                         </button>
                     </a>
                 </div>
@@ -171,197 +169,487 @@
     <!--//home-->
 
 
-    <!-- ******speakers****** -->
+    
+
 <section id="speakers" class="speakers section">
     <div class="row text-center">
         <h2 class="title text-center">
-            <img src="images/icons/team.png" /><br/> SPEAKERS
+            <img src="images/icons/team.png" /><br/> KEYNOTE SPEAKERS
         </h2>
-        <div class="col-md-8 col-md-offset-2">
-            <div class="item col-md-6 col-sm-6 col-xs-12">
-                <div class="pybox">
-                    <div class="icon-holder text-center">
-                        <center>
-                            <img src="images/keynote.jpeg" class="img-responsive"/>
-                        </center>
-                    </div>
-                    <div class="content">
-                        <h4>TBA</h4>
-                        <a href="#">
-                            <i class="social fa fa-github-square fa-2x social-fb"></i>
-                        </a>
-                        <a href="#">
-                            <i class="social fa fa-twitter-square fa-2x social-tw"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="item col-md-6 col-sm-6 col-xs-12">
-                <div class="pybox">
-                    <div class="icon-holder text-center">
-                        <center>
-                            <img src="images/keynote.jpeg" class="img-responsive"/>
-                        </center>
-                    </div>
-                    <div class="content">
-                        <h4>TBA</h4>
-                        <a href="#">
-                            <i class="social fa fa-github-square fa-2x social-fb"></i>
-                        </a>
-                        <a href="#">
-                            <i class="social fa fa-twitter-square fa-2x social-tw"></i>
-                        </a>
-                    </div>
-                </div>
+
+        <div class="col-md-12">
+            
+    <div class="item col-md-4 col-sm-6 col-xs-12 speaker-box">
+        <div class="pybox speaker">
+            <figure class="icon-holder text-center speaker--photo">
+                <img src="images/speakers/baishampayan.jpg" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
+            </figure>
+            <div class="content">
+              <h3 class='speaker--name'>Baishampayan Ghose</h3>
+              <p class='speaker--bio'>Baishampayan "BG" Ghose is <strong>CTO/Co-founder at Helpshift, Inc</strong>. BG is a
+                                career functional programmer with exposure to a wide variety of
+                                programming languages and paradigms. His areas of interests are
+                                Semantics of Programming Languages, Distributed Systems, Software
+                                Design and the intersection of Software, Culture and Society.</p>
+              <a class='speaker--social-icon' target="_blank" href="https://github.com/ghoseb">
+                <i class="social fa fa-github-square fa-2x social-fb"></i>
+              </a>
+              <a class='speaker--social-icon' target="_blank" href="https://twitter.com/ghoseb">
+                    <i class="social fa fa-twitter-square fa-2x social-tw"></i>
+                </a>
             </div>
         </div>
     </div>
+
+
+            
+    <div class="item col-md-4 col-sm-6 col-xs-12 speaker-box">
+        <div class="pybox speaker">
+            <figure class="icon-holder text-center speaker--photo">
+                <img src="images/speakers/andreas.jpg" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
+            </figure>
+            <div class="content">
+              <h3 class='speaker--name'>Andreas Mueller</h3>
+              <p class='speaker--bio'>Andreas is <strong>a Research Engineer at the NYU Center for Data Science</strong>,
+                                building open source software for data science. Previously he was
+                                a Machine Learning Scientist at Amazon, working on computer vision
+                                and forecasting problems. He is one of the core developers of the
+                                scikit-learn machine learning library, and he has been co-maintaining
+                                it for several years.</p>
+              <a class='speaker--social-icon' target="_blank" href="https://github.com/amueller">
+                <i class="social fa fa-github-square fa-2x social-fb"></i>
+              </a>
+              <a class='speaker--social-icon' target="_blank" href="https://twitter.com/amuellerml">
+                    <i class="social fa fa-twitter-square fa-2x social-tw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+            
+    <div class="item col-md-4 col-sm-6 col-xs-12 speaker-box">
+        <div class="pybox speaker">
+            <figure class="icon-holder text-center speaker--photo">
+                <img src="images/speakers/vanl.jpg" class="img-responsive" style='border-radius: 10px; border: 2px solid #771616' />
+            </figure>
+            <div class="content">
+              <h3 class='speaker--name'>Van Lindberg</h3>
+              <p class='speaker--bio'>Van Lindberg is <strong>an engineer, IP and open source lawyer, and part-time natural language hacker</strong>. He is a director, general counsel, and past chair of the PSF, a director of the OpenStack Foundation, and Vice President and Associate General Counsel for Rackspace. Lindberg wrote the 'Intellectual Property and Open Source', and was named one of 'America's Top 12 Techiest Attorneys'.</p>
+              <a class='speaker--social-icon' target="_blank" href="https://github.com/vanl">
+                <i class="social fa fa-github-square fa-2x social-fb"></i>
+              </a>
+              <a class='speaker--social-icon' target="_blank" href="https://twitter.com/VanL">
+                    <i class="social fa fa-twitter-square fa-2x social-tw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+    </div>
 </section>
-<!--//speakers-->
-    <!-- ******schedule****** -->
-<section id="schedule" class="schedule section">
+    <section id="schedule" class="schedule section">
     <div class="row text-center">
-         <h2 class="title text-center">
-            <img src="images/icons/schedule.png" /><br/> SCHEDULE
-        </h2>
+
+        <h2 class="title text-center"><img src="images/icons/schedule.png" /><br/> SCHEDULE</h2>
+
         <div class="tabbable-panel">
             <div class="tabbable-line">
-                <ul class="nav nav-tabs nav-justified responsive">
-                    <li class="col-md-4 active">
-                        <a href="#tab_default_1" data-toggle="tab">
-                            <h4 class="date">
-                                <i class="fa fa-rocket"></i>&nbsp;&nbsp;23 September 2016, Friday
-                            </h4>
+                <ul class="nav nav-tabs nav-justified responsive"><li class="col-md-4 active">
+                        <a href="#day1" data-toggle="tab">
+                            <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 23, 2016</h4>
                         </a>
-                    </li>
-                    <li class="col-md-4">
-                        <a href="#tab_default_2" data-toggle="tab">
-                            <h4 class="date">
-                                <i class="fa fa-microphone"></i>&nbsp;&nbsp;24 September 2016, Saturday
-                            </h4>
+                    </li><li class="col-md-4 ">
+                        <a href="#day2" data-toggle="tab">
+                            <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 24, 2016</h4>
                         </a>
-                    </li>
-                    <li class="col-md-4">
-                        <a href="#tab_default_3" data-toggle="tab">
-                            <h4 class="date">
-                                <i class="fa fa-microphone"></i>&nbsp;&nbsp;25 September 2016, Sunday
-                            </h4>
+                    </li><li class="col-md-4 ">
+                        <a href="#day3" data-toggle="tab">
+                            <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;September 25, 2016</h4>
                         </a>
-                    </li>
-                </ul>
+                    </li></ul>
                 <div class="tab-content responsive">
-                    <div class="tab-pane active" id="tab_default_1">
-                        <h6>
-                            Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants and a <br/>separate ticket is required to attend each workshop.
-                        </h6>
+                    
+                    <div class="tab-pane active" id="day1">
+                        <p>Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants and a <br/>separate ticket is required to attend each workshop.</p>
                         <div class="table-responsive text-left">
                             <div class="col-md-10 col-md-offset-1 custyle">
                                 <table id="tableDiv" class="table custab">
                                     <thead>
                                         <tr>
-                                            <th style="width:13%;" class="text-center pyred">TIME</th>
-                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:20%;" class="text-center pyred">TIME</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        
                                         <tr>
-                                            <td class="pyred">TBA</td>
-                                            <td><center>TBA</center></td>
-                                            <td><center>TBA</center></td>
-                                            <td><center>TBA</center></td>
+                                            <td class="pyred">10:00 AM - 1:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/?ref=schedule" target="_blank" title=" Demystifying the Django REST Framework: Web devleopment"> Demystifying the Django REST Framework: Web devleopment</a></strong><br><em>By Haris Ibrahim K. V</em></center></td>
+                                            <td><center>Room 1</center></td>
                                         </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:00 AM - 1:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/docker-workshop~dyXwb/?ref=schedule" target="_blank" title="Docker Workshop: Infrastructure">Docker Workshop: Infrastructure</a></strong><br><em>By Lalatendu Mohanty</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:00 AM - 1:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/talking-to-machines-optimizing-neural-networks-with-theano~ep2rb/?ref=schedule" target="_blank" title=" Talking to Machines : Optimizing Neural Networks with Theano: Scientific Computing"> Talking to Machines : Optimizing Neural Networks with Theano: Scientific Computing</a></strong><br><em>By kumarkrishna</em></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">1:00 PM - 2:00 PM</td>
+                                            <td><center><strong>Lunch</strong></center></td>
+                                            <td><center>Dining Hall</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:00 PM - 5:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/scaling-django-with-kubernetes~boONb/?ref=schedule" target="_blank" title=" Scaling Django with Kubernetes: Infrastructure"> Scaling Django with Kubernetes: Infrastructure</a></strong><br><em>By Saket</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:00 PM - 5:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/productive-coding-with-pycharm~aA11a/?ref=schedule" target="_blank" title=" Productive Coding with PyCharm"> Productive Coding with PyCharm</a></strong><br><em>By paul Everitt</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:00 PM - 5:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-a-lie-detector-multi-modal-sentiment-analysis~epk1d/?ref=schedule" target="_blank" title="Building a Lie Detector: Multi-Modal Sentiment Analysis: Scientific Computing">Building a Lie Detector: Multi-Modal Sentiment Analysis: Scientific Computing</a></strong><br><em>By Mimansa Jaiswal</em></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab_default_2">
-                        <h6>
-                            See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.
-                        </h6>
+                    
+                    <div class="tab-pane " id="day2">
+                        <p>See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.</p>
                         <div class="table-responsive text-left">
                             <div class="col-md-10 col-md-offset-1 custyle">
-                                     <table id="tableDiv" class="table custab">
+                                <table id="tableDiv" class="table custab">
                                     <thead>
                                         <tr>
-                                            <th style="width:13%;" class="text-center pyred">TIME</th>
-                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:20%;" class="text-center pyred">TIME</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        
                                         <tr>
-                                            <td class="pyred">TBA</td>
-                                            <td><center>TBA</center></td>
-                                            <td><center>TBA</center></td>
-                                            <td><center>TBA</center></td>
+                                            <td class="pyred">9:15 AM - 9:30 AM</td>
+                                            <td><center><strong>Introduction and KG Award</strong></center></td>
+                                            <td><center>Room 1</center></td>
                                         </tr>
-
+                                        
+                                        <tr>
+                                            <td class="pyred">9:30 AM - 10:15 AM</td>
+                                            <td><center><strong>KeyNote</strong></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:15 AM - 10:45 AM</td>
+                                            <td><center><strong>Break</strong></center></td>
+                                            <td><center>Dining Hall</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:45 AM - 11:30 AM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/continuous-integration-for-data-scientists~ej0zb/?ref=schedule" target="_blank" title="Continuous Integration for Data Scientists">Continuous Integration for Data Scientists</a></strong><br><em>By Jaidev Deshpande</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:45 AM - 11:30 AM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/flying-a-drone~aMZQb/?ref=schedule" target="_blank" title="Flying A Drone">Flying A Drone</a></strong><br><em>By Dinesh Kumar</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:45 AM - 11:30 AM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/good-bye-call-stack-hello-event-driven-architectures~erYkd/?ref=schedule" target="_blank" title="Good Bye, Call Stack; Hello, Event Driven Architectures!">Good Bye, Call Stack; Hello, Event Driven Architectures!</a></strong><br><em>By Anvith Shivakumara</em></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">11:30 AM - 12:15 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/concurrency-in-modern-robots-introducing-the-robot-operating-system~avYge/?ref=schedule" target="_blank" title="Concurrency in modern Robots: Introducing the Robot Operating System.">Concurrency in modern Robots: Introducing the Robot Operating System.</a></strong><br><em>By Shivam</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">11:30 AM - 12:15 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-companion-chatbot-with-python~dN8Ka/?ref=schedule" target="_blank" title="Building companion chatbot with Python">Building companion chatbot with Python</a></strong><br><em>By Mimansa Jaiswal</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">11:30 AM - 12:15 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/testing-native-binaries-using-cffi-and-pytest~azvra/?ref=schedule" target="_blank" title="Testing native binaries using cffi and py.test">Testing native binaries using cffi and py.test</a></strong><br><em>By Noufal Ibrahim</em></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">12:15 PM - 1:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/big-data-analysis-using-pyspark~b8Mld/?ref=schedule" target="_blank" title="Big Data Analysis using PySpark">Big Data Analysis using PySpark</a></strong><br><em>By Shagun Sodhani</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">12:15 PM - 1:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/generators-inside-out~b2WPd/?ref=schedule" target="_blank" title="Generators Inside Out">Generators Inside Out</a></strong><br><em>By Anand Chitipothu</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">12:15 PM - 1:00 PM</td>
+                                            <td><center><strong>Sponsored Talk</strong></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">1:00 PM - 2:00 PM</td>
+                                            <td><center><strong>Lunch</strong></center></td>
+                                            <td><center>Dining Hall</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:00 PM - 2:45 PM</td>
+                                            <td><center><strong>Lightning Talk</strong></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:45 PM - 3:30 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/real-time-sentiment-analysis-with-apache-storm-and-python~epzrb/?ref=schedule" target="_blank" title="Real time Sentiment Analysis with Apache Storm and Python">Real time Sentiment Analysis with Apache Storm and Python</a></strong><br><em>By Shaik Asifullah</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:45 PM - 3:30 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/helix-and-salt-case-study-in-high-volume-and-distributed-python-applications~aAm1a/?ref=schedule" target="_blank" title="Helix and Salt: Case study in high volume and distributed python applications">Helix and Salt: Case study in high volume and distributed python applications</a></strong><br><em>By Akhil Malik</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:45 PM - 3:30 PM</td>
+                                            <td><center><strong>Sponsored Talk</strong></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">3:30 PM - 4:00 PM</td>
+                                            <td><center><strong>Break - Tea & Snacks</strong></center></td>
+                                            <td><center>Dining Hall</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">4:00 PM - 4:45 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/hacking-the-python-ast~b6W7d/?ref=schedule" target="_blank" title="Hacking the Python AST">Hacking the Python AST</a></strong><br><em>By Suhas</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">4:00 PM - 4:45 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/the-trends-in-choosing-licenses-in-python-ecosystem~er2we/?ref=schedule" target="_blank" title="The trends in choosing licenses in Python ecosystem">The trends in choosing licenses in Python ecosystem</a></strong><br><em>By Anwesha Sarkar</em></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">4:45 PM - 5:30 PM</td>
+                                            <td><center><strong>KeyNote - Van Lindberg</strong></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane" id="tab_default_3">
-                        <h6>
-                            Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants <br/>and a separate ticket is required to attend each workshop.
-                        </h6>
+                    
+                    <div class="tab-pane " id="day3">
+                        <p>See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.</p>
                         <div class="table-responsive text-left">
                             <div class="col-md-10 col-md-offset-1 custyle">
-                                      <table id="tableDiv" class="table custab">
+                                <table id="tableDiv" class="table custab">
                                     <thead>
-                                       <tr>
-                                            <th style="width:13%;" class="text-center pyred">TIME</th>
-                                            <th style="width:50%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:20%;" class="text-center pyred">SPEAKER</th>
-                                            <th style="width:18%;" class="text-center pyred">LOCATION</th>
+                                        <tr>
+                                            <th style="width:20%;" class="text-center pyred">TIME</th>
+                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
+                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        
                                         <tr>
-                                            <td class="pyred">TBA</td>
-                                            <td><center>TBA</center></td>
-                                            <td><center>TBA</center></td>
-                                            <td><center>TBA</center></td>
+                                            <td class="pyred">9:30 AM - 10:15 AM</td>
+                                            <td><center><strong>KeyNote</strong></center></td>
+                                            <td><center>Room 1</center></td>
                                         </tr>
-
+                                        
+                                        <tr>
+                                            <td class="pyred">10:15 AM - 10:45 AM</td>
+                                            <td><center><strong>Break</strong></center></td>
+                                            <td><center>Dining Hall</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:45 AM - 11:30 AM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/algorithmic-music-generation~dBrxd/?ref=schedule" target="_blank" title="Algorithmic Music Generation">Algorithmic Music Generation</a></strong><br><em>By Padmaja</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:45 AM - 11:30 AM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/open-source-health-monitoring-and-evaluation-systems-using-python~dywVa/?ref=schedule" target="_blank" title="Open source health monitoring and evaluation systems using python">Open source health monitoring and evaluation systems using python</a></strong><br><em>By Sandeep Nagar</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">10:45 AM - 11:30 AM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/realtime-microservices-with-server-side-flux~bWqXe/?ref=schedule" target="_blank" title="Realtime microservices with server side Flux">Realtime microservices with server side Flux</a></strong><br><em>By Ratnadeep Debnath</em></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">11:30 AM - 12:15 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/dont-write-tests-generate-them~epRXb/?ref=schedule" target="_blank" title="Don't write tests, generate them!">Don't write tests, generate them!</a></strong><br><em>By Puneeth Chaganti</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">11:30 AM - 12:15 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/creating-a-recommendation-engine-based-on-nlp-and-contextual-word-embeddings~aOZGe/?ref=schedule" target="_blank" title="Creating a recommendation engine based on NLP and contextual word embeddings">Creating a recommendation engine based on NLP and contextual word embeddings</a></strong><br><em>By Manas Ranjan Kar</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">11:30 AM - 12:15 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/containerize-upstream-projects-effortlessly~er9kd/?ref=schedule" target="_blank" title="CentOS Community Container Pipeline">CentOS Community Container Pipeline</a></strong><br><em>By Bamacharan Kundu</em></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">12:15 PM - 1:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/financial-modelling-and-simulation-with-python-using-numpy-scipy-matplotlib-and-pandas~b69Qa/?ref=schedule" target="_blank" title="Financial Modelling and Simulation with Python: using Numpy, Scipy, Matplotlib and Pandas">Financial Modelling and Simulation with Python: using Numpy, Scipy, Matplotlib and Pandas</a></strong><br><em>By Saurabh Jaiswal</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">12:15 PM - 12:35 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/deploying-your-python-backend-with-almost-zero-cost~elv7b/?ref=schedule" target="_blank" title="Deploying your python backend with (almost) zero cost">Deploying your python backend with (almost) zero cost</a></strong><br><em>By Srinivasan R</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">12:35 PM - 1:00 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/load-testing-using-locustio~eZ0Eb/?ref=schedule" target="_blank" title="Load testing using Locust.io">Load testing using Locust.io</a></strong><br><em>By Vinay Babu</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">12:15 PM - 1:00 PM</td>
+                                            <td><center><strong>Sponsored Talk</strong></center></td>
+                                            <td><center>Room 3</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">1:00 PM - 2:00 PM</td>
+                                            <td><center><strong>Lunch</strong></center></td>
+                                            <td><center>Dining Hall</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:00 PM - 2:45 PM</td>
+                                            <td><center><strong>Lightning Talk</strong></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:45 PM - 3:30 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-an-automatic-keyphrase-extraction-system-using-nltk-in-python~e9g4b/?ref=schedule" target="_blank" title="Building an automatic keyphrase extraction system using NLTK in Python">Building an automatic keyphrase extraction system using NLTK in Python</a></strong><br><em>By Prastut Kumar</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">2:45 PM - 3:30 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/building-a-secure-iot-platform-using-paho-and-flask~eZ8vb/?ref=schedule" target="_blank" title="Building a secure IoT platform using Paho and Flask">Building a secure IoT platform using Paho and Flask</a></strong><br><em>By Jaimon Jose</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">3:30 PM - 4:00 PM</td>
+                                            <td><center><strong>Break - Tea & Snacks</strong></center></td>
+                                            <td><center>Dining Hall</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">4:00 PM - 4:45 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/python-byte-code-hacks~enODa/?ref=schedule" target="_blank" title="Python Byte Code hacks">Python Byte Code hacks</a></strong><br><em>By Vijay Kumar</em></center></td>
+                                            <td><center>Room 1</center></td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="pyred">4:45 - 5:30 PM</td>
+                                            <td><center><strong><a href="https://in.pycon.org/cfp/2016/proposals/micropython-porting-python-to-microcontrollers~avZga/?ref=schedule" target="_blank" title="MicroPython - Porting python to microcontrollers ">MicroPython - Porting python to microcontrollers </a></strong><br><em>By Aswin Venu</em></center></td>
+                                            <td><center>Room 2</center></td>
+                                        </tr>
+                                        
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
+                    
+                </div>
+                <div class="row text-center">
+                    <span class="note"><small><sup>*</sup>Note: These schedules are tentative and are subjected to change as per speakers availability and/or other reasons.</span></small>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<!--//schedule-->
     <!-- ******venue****** -->
 <section id="venue" class="venue section">
     <div class="row text-center">
-         <h2 class="title text-center">
-            <img src="images/icons/venue.png" /><br/>VENUE
+        <h2 class="title text-center">
+             <br/><img src="images/icons/venue.png" /><br/>VENUE
         </h2>
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-10 col-md-offset-1">
             <div class="pybox">
-                <center>
-                    <img src="images/venue-jnu.jpg" class="img-responsive"/>
-                </center>
+
+                
+                <style>
+                    .map-overlay {
+                        background:transparent;
+                        position:relative;
+                        width:100%;
+                        height: 450px;
+                        top: 450px;
+                        margin-top: -450px;
+                    }
+                </style>
+                <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.0482704525202!2d77.1637476149793!3d28.538268795092108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf1d45bdd082aedf!2sConvention+Center!5e0!3m2!1sen!2sin!4v1472423449446" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
+
                 <div class="content text-center">
-                    <h3 style="text-align:center;">
-                        <a href="#">
-                            Convention Centre
-                        </a>
-                    </h3>
+                    <h3>Convention Centre</h3>
                     <span class="help-block">
-                        Jawahar Lal Nehru University,
-                        <br/>
-                        New Mehrauli Road, Near Munirka,
-                        <br/>
+                        Jawahar Lal Nehru University, <br/>
+                        New Mehrauli Road, Near Munirka, <br/>
                         New Delhi - 110067
                         <br/>
                     </span>
@@ -381,120 +669,283 @@
 </section>
 <!--//venue-->
     <!-- ******sponsors****** -->
+
+
 <section id="sponsors" class="sponsors section">
     <div class="row text-center">
          <h2 class="title text-center">
-            <img src="images/icons/sponsors.png" /><br/> SPONSORS
+             <img src="images/icons/sponsors.png"/><br/>SPONSORS
         </h2>
-        <div class="col-md-12">
-            <h3 class="date text-center">Platinum</h3>
-            <br/>
-            <div class="col-md-4">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-12">
+
+        
+
+        <div id="sponsors--gold" class="col-md-12">
             <h3 class="date text-center">Gold</h3>
-            <br/>
-            <div class="col-md-6">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
+            <div class="col-md-4 gold"><a data-toggle="modal" href="#jet-brains-modal" target="_blank">
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/jetbrains.svg" /></center>
+    </div>
+    </a>
+    <div class="modal fade" id="jet-brains-modal" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Jet Brains</h4>
+          </div>
+          <div class="modal-body">
+              <center><img class="img-responsive" src="images/logos/jetbrains.svg" /></center>
+              <div class="sponsors-description"><p>JetBrains delivers intelligent software
+                    solutions that make developers more productive by
+                    simplifying their challenging tasks, automating the
+                    routine, and helping them adopt the best development
+                    practices.</p><p>PyCharm is the Python IDE for Professional
+                    Developers by JetBrains providing a complete set of
+                    tools for productive Python, Web and scientific
+                    development, available in three editions. The free and
+                    open-source </p><p>PyCharm Community Edition is perfect for
+                    pure Python coding. </p><p>PyCharm Professional Edition is
+                    designed for professional Python and Web developers.
+                    PyCharm Educational Edition helps novice programmers
+                    learn programming with Python easily and effectively
+                    .</p></div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn btn-primary" href="https://www.jetbrains.com?ref=pyconindia2016" target="_blank">
+                Visit Jet Brains website &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
             </div>
-            <div class="col-md-6">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
+            <div class="col-md-4 gold"><a data-toggle="modal" href="#redhat-modal" target="_blank">
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/redhat.png" /></center>
+    </div>
+    </a>
+    <div class="modal fade" id="redhat-modal" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Red Hat</h4>
+          </div>
+          <div class="modal-body">
+              <center><img class="img-responsive" src="images/logos/redhat.png" /></center>
+              <div class="sponsors-description"><p>Red Hat is the world's leading provider of open
+                    source software solutions, using a community-powered
+                    approach to reliable and high-performing cloud, Linux,
+                    middleware, storage and virtualization technologies. </p><p>
+                    Red Hat also offers award-winning support, training, and
+                    consulting services.  As a connective hub in a global
+                    network of enterprises, partners, and open source
+                    communities, Red Hat helps create relevant, innovative
+                    technologies that liberate resources for growth and
+                    prepare customers for the future of IT.</p></div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn btn-primary" href="https://www.redhat.com/en?ref=pyconindia2016" target="_blank">
+                Visit Red Hat website &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+            </div>
+            <div class="col-md-4 gold"><a data-toggle="modal" href="#digital-ocean-modal" target="_blank">
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/digital-ocean.png" /></center>
+    </div>
+    </a>
+    <div class="modal fade" id="digital-ocean-modal" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Digital Ocean</h4>
+          </div>
+          <div class="modal-body">
+              <center><img class="img-responsive" src="images/logos/digital-ocean.png" /></center>
+              <div class="sponsors-description"><p>DigitalOcean is the world’s 2nd largest cloud
+                    hosting platform focused on simplifying cloud
+                    infrastructure for software developers &amp; startups. They
+                    have 13 datacenters across the world, with their latest
+                    datacenter being launched in Bangalore. Trusted by 725,
+                    000+ developers globally who have spun up 20MM+ Droplets
+                    (virtual servers) on their infrastructure, the key
+                    features of their platform include:</p>
+                    <ul><li>Powerful Hardware - Servers built on powerful Hex Core
+                     machines with dedicated ECC Ram and RAID SSD storage.</li>
+                    <li>55 second provisioning time for servers</li>
+                    <li>Tier-1 Bandwidth - All servers come with 1Gb/sec.
+                    network interface.</li>
+                    <li>Simple Control Panel - 1-Click Installs for popular
+                    applications, Team accounts, Auto Backups and Snapshots</li>
+                    <li>Simple API that provides complete control over your
+                    virtual private servers</li>
+                    <li>Block Storage - Attach highly-available and scalable
+                    SSD-based Block Storage to your virtual private servers</li>
+                    <li>www.digitalocean.com/community/tutorials is a popular
+                    resource for developers when they are looking for
+                    technical tutorials for new technology</li>
+                    <li>Free 24/7 access to their customer support team</li></ul></div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn btn-primary" href="http://www.digitalocean.com?ref=pyconindia2016" target="_blank">
+                Visit Digital Ocean website &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
             </div>
         </div>
-        <div class="col-md-12">
+
+
+        <div id="sponsors--silver" class="col-md-12">
             <h3 class="date text-center">Silver</h3>
-            <br/>
-            <div class="col-md-6">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
+            <div class="col-md-3 silver"><a data-toggle="modal" href="#zeomega-modal" target="_blank">
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/zeomega.png" /></center>
+    </div>
+    </a>
+    <div class="modal fade" id="zeomega-modal" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">ZeOmega</h4>
+          </div>
+          <div class="modal-body">
+              <center><img class="img-responsive" src="images/logos/zeomega.png" /></center>
+              <div class="sponsors-description">Soon to be updated...</div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn btn-primary" href="http://www.zeomega.com?ref=pyconindia2016" target="_blank">
+                Visit ZeOmega website &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
             </div>
-            <div class="col-md-6">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
+            <div class="col-md-3 silver"><a data-toggle="modal" href="#iamai-modal" target="_blank">
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/iamai.png" /></center>
+    </div>
+    </a>
+    <div class="modal fade" id="iamai-modal" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">IAMAI</h4>
+          </div>
+          <div class="modal-body">
+              <center><img class="img-responsive" src="images/logos/iamai.png" /></center>
+              <div class="sponsors-description"><p>The Internet and Mobile Association of India
+                    [IAMAI] is a young and vibrant association with ambitions
+                    of representing the entire gamut of digital businesses in
+                    India. It was established in 2004 by the leading online
+                    publishers, and in the last 12 years has come to
+                    effectively address the challenges facing the digital and
+                    online industry including mobile content and services,
+                    online publishing, mobile advertising, online advertising,
+                    ecommerce and mobile &amp; digital payments among others
+                    .</p>
+                    <p>Twelve years after its establishment, the association is
+                    still the only professional industry body representing the
+                    online and mobile VAS industry in India. The association
+                    is registered under the Societies Act and is a recognized
+                    charity in Maharashtra. With a membership of over 200
+                    Indian and MNC companies, and with offices in Delhi, Mumbai
+                    and Bengaluru, the association is well placed to work
+                    towards charting a growth path for the digital industry in
+                    India.</p></div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn btn-primary" href="http://www.iamai.in?ref=pyconindia2016" target="_blank">
+                Visit IAMAI website &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
             </div>
-        </div>
-        <div class="col-md-12">
-            <h3 class="date text-center">Accomodation</h3>
-            <br/>
-            <div class="col-md-6">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="pybox">
-                    <a href="#">
-                        <center>
-                            <img class="img-responsive" src="images/spon.png" />
-                        </center>
-                    </a>
-                    <p></p>
-                </div>
-            </div>
+            <div class="col-md-3 silver"><a data-toggle="modal" href="#" target="_blank">
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/placeholder.png" /></center>
+    </div>
+    </a>
+    <div class="modal fade" id="" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Sponsor</h4>
+          </div>
+          <div class="modal-body">
+              <center><img class="img-responsive" src="images/logos/placeholder.png" /></center>
+              <div class="sponsors-description">Soon to be updated...</div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn btn-primary" href="#?ref=pyconindia2016" target="_blank">
+                Visit Sponsor website &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div></div>
+            <div class="col-md-3 silver"><a data-toggle="modal" href="#" target="_blank">
+    <div class="pybox sponsor " style="">
+        <center><img class="img-responsive" src="images/logos/placeholder.png" /></center>
+    </div>
+    </a>
+    <div class="modal fade" id="" tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Sponsor</h4>
+          </div>
+          <div class="modal-body">
+              <center><img class="img-responsive" src="images/logos/placeholder.png" /></center>
+              <div class="sponsors-description">Soon to be updated...</div>
+          </div>
+          <div class="modal-footer">
+              <a class="btn btn-primary" href="#?ref=pyconindia2016" target="_blank">
+                Visit Sponsor website &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div></div>
         </div>
     </div>
+
 </section>
-<!--//sponsors-->
 
     <!-- ******blog****** -->
     <section id="blog" class="blog section" style="margin-bottom:60px;">
@@ -556,15 +1007,13 @@
 </footer>
     </div>
 
-
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.matchHeight.js" type="text/javascript"></script>
 
     <!-- Custom JavaScript for this template -->
     <script src="js/custom.js"></script>

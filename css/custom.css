@@ -73,6 +73,20 @@ nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
     color: #CCC;
     background-color: transparent;
 }
+.navbar .navbar--logo {
+    margin: 0 auto;
+}
+@media (max-width: 767px) {
+    .navbar .navbar-brand h2 {
+        display: none;
+    }
+    .navbar .navbar--logo {
+        width: 130px;
+        margin-left: 1em;
+    }
+}
+
+
 
 nav:hover .forAnimate{
     opacity: 1;
@@ -82,9 +96,9 @@ section {
     padding-left: 15px;
 }
 
-.section {
+.section{
     min-height:100vh;
-    margin-bottom:130px;
+    margin-bottom:60px;
 }
 
 #footer-links > a {
@@ -113,7 +127,7 @@ section {
     position: fixed;
     background-position:bottom;
     background-repeat: repeat-x;
-    z-index: 0;
+    z-index: -1;
     bottom: 0px;
 }
 
@@ -228,7 +242,7 @@ section {
 }
 
 .teams .pybox,.sponsors .pybox,.teams .pybox {
-    min-height:350px;
+    min-height: 255px;
     padding:25px;
     margin:10px;
 }
@@ -241,11 +255,35 @@ section {
     margin-bottom: 10px;
     background: #fff url('../images/boxbg.png') right bottom no-repeat;
 }
+.sponsors .pybox {
+    background: #fff;
+    padding: 10px;
+}
+.sponsors .pybox a {
+    display: inline-block;
+}
 
+#sponsors--silver .pybox {
+    min-height: 150px;
+}
+
+.sponsors-description {
+    text-align: left;
+}
+
+.sponsor-logo {
+    max-width: 250px;
+    padding-bottom: 2em;
+}
+
+.modal-body {
+    padding-left: 2em;
+    padding-right: 2em;
+}
 
 .speakers {
     /*margin-top:-80px;*/
-    height: 100vh;
+    height: 130vh;
 }
 
 .speakers .social {
@@ -344,7 +382,7 @@ button {
 }
 
 .pymatbtn {
-    padding: 0.6em 1.5em;
+    padding: 0.6em 1.2em;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
@@ -498,6 +536,25 @@ button {
         opacity: 0;
     }
 
+}
+.speaker.pybox {
+    background-size: 55%;
+}
+@media (max-width: 768px) {
+    .speaker.pybox {
+        background-size: 10%;
+    }
+}
+.speaker--photo img {
+    margin: 0 auto;
+}
+.speaker--social-icon:hover .social,
+.speaker--social-icon:focus .social{
+    color: #da3127;
+}
+.speaker--bio {
+    font-size: 0.8em;
+    text-align: justify;
 }
 
 /* .....NavBar: Fully showing nav bar..... */
