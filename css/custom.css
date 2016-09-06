@@ -137,6 +137,7 @@ section {
     z-index:1000;
     padding:5px 25px 0px 25px;
     color:#eee;
+    width: 80%;
 }
 
 .btn {
@@ -465,6 +466,7 @@ button {
         width: calc(100% - 20%); /*keeps 100% minus nav size*/
         margin-left: 20%;
         float: right;
+        padding-bottom: 100px;
     }
 
     nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -518,7 +520,7 @@ button {
         width: 20%;
         height: 100%;
         float: left;
-        z-index: 8000;
+        z-index: 1000;
         margin-bottom: 0px;
     }
 
@@ -543,6 +545,32 @@ button {
 @media (max-width: 768px) {
     .speaker.pybox {
         background-size: 10%;
+    }
+    .footer a{
+        color: #da3127;
+    }
+    #footer-links > a {
+        color: #da3127;
+    }
+
+}
+@media (max-width: 992px) {
+    .overbg {
+        background-position: 0 -12px;
+    }
+    .overbg:after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        height: 50pX;
+        background: #da3127;
+        width: 100%;
+        bottom: 0;
+    }
+}
+@media (max-width: 454px) {
+    .footer > p:first-child > a {
+        display: block;
     }
 }
 .speaker--photo img {
