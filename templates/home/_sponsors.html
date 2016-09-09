@@ -37,11 +37,15 @@ style="", type='') -%}
              <img src="images/icons/sponsors.png"/><br/>SPONSORS
         </h2>
 
-        {# <div id="sponsors--platimum" class="col-md-12">
+       <div id="sponsors--platimum" class="col-md-12">
             <h3 class="date text-center">Platinum</h3>
+            <div class="col-md-6">{{ pybox("images/logos/goibibo_logo.png",
+                                                 href="https://www.goibibo.com",
+                                                 style="",
+                                                 sponsor_name="goibibo",
+                                                 modal="goibibo-modal") }}</div>
             <div class="col-md-6">{{ pybox() }}</div>
-            <div class="col-md-6">{{ pybox() }}</div>
-        </div> #}
+        </div> 
 
         <div id="sponsors--gold" class="col-md-12">
             <h3 class="date text-center">Gold</h3>
@@ -149,6 +153,23 @@ style="", type='') -%}
             <div class="col-md-3 silver">{{ pybox() }}</div>
             <div class="col-md-3 silver">{{ pybox() }}</div>
         </div>
+        <div id="sponsors--associate" class="col-md-12">
+            <h3 class="date text-center">Associate</h3>
+            <div class="col-md-2 col-md-offset-5 associate">{{ pybox("images/logos/pipal.png",
+                                                  href="https://pipal.in/",
+                                                   style="",
+                                                   sponsor_name="Pipal Academy",
+                                                   modal="pipal-modal",
+                description="<p>Pipal Academy is a collective of experienced
+                    technologists, who care deeply about the art of software
+                    development. We offer in-depth courses on niche technical
+                    topics.</p>
+                    <p>We regularly conduct public workshops in Bangalore and
+                    also offer on site corporate trainings. Our courses are
+                    targeted at professional software developers and we make
+                    sure they are hands-on and interactive.</p>") }}</div>
+
+      </div>
     </div>
 
 </section>
