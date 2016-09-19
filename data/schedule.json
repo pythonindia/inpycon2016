@@ -5,9 +5,31 @@
         "description": "Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants and a <br/>separate ticket is required to attend each workshop.",
         "events": [
             {
+                "location": "Audi 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 2",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "Breakfast and registration",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Lecture room 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "",
+                "speaker": "",
+                "link": ""
+            },
+
+            {
                 "location": "Room 1",
                 "time": "10:00 AM - 1:00 PM",
-                "title": " Demystifying the Django REST Framework: Web devleopment",
+                "title": " Demystifying the Django REST Framework: Web Development",
                 "speaker": "Haris Ibrahim K. V",
                 "link": "https://in.pycon.org/cfp/2016/proposals/demystifying-the-django-rest-framework~dBNxd/"
             },
@@ -62,6 +84,28 @@
         "events": [
             {
                 "location": "Audi 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 2",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "Breakfast and registration",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Lecture room 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "",
+                "speaker": "",
+                "link": ""
+            },
+
+            {
+                "location": "Audi 1",
                 "time": "09:15 AM - 09:30 AM",
                 "title": "Introduction and KG Award",
                 "speaker": "",
@@ -77,7 +121,7 @@
             {
                 "location": "Lecture room 1",
                 "time": "09:15 AM - 09:30 AM",
-                "title": "Introduction and KG Award",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
@@ -98,14 +142,14 @@
             {
                 "location": "Lecture room 1",
                 "time": "09:30 AM - 10:15 AM",
-                "title": "Keynote by BG",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 1",
                 "time": "10.15 AM - 10.45 AM ",
-                "title": "Tea Break",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
@@ -119,7 +163,7 @@
             {
                 "location": "Lecture Hall 3",
                 "time": "10.15 AM - 10.45 AM ",
-                "title": "Tea Break",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
@@ -203,14 +247,14 @@
             {
                 "location": "Audi 2",
                 "time": "2:00 PM - 2:45 PM",
-                "title": "Lightning Talks",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture room 1",
                 "time": "2:00 PM - 2:45 PM",
-                "title": "Lightning Talks",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
@@ -305,6 +349,28 @@
         "date": "September 25, 2016",
         "description": "See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.",
         "events": [
+            {
+                "location": "Audi 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 2",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "Breakfast and registration",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Lecture room 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "",
+                "speaker": "",
+                "link": ""
+            },
+
             {
                 "location": "Audi 1",
                 "time": "9:30 AM - 10:15 AM",
@@ -441,14 +507,14 @@
             {
                 "location": "Audi 2",
                 "time": "2.00 PM - 2.45 PM",
-                "title": "Lightning Talks",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture Hall 3",
                 "time": "2.00 PM - 2.45 PM",
-                "title": "Lightning Talks",
+                "title": "",
                 "speaker": "",
                 "link": ""
             },
