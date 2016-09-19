@@ -5,6 +5,28 @@
         "description": "Workshops are two and a half hour long hands-on sessions. Each workshop is limited to 25 participants and a <br/>separate ticket is required to attend each workshop.",
         "events": [
             {
+                "location": "Audi 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " - ",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 2",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " Registration and Breakfast ",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Lecture room 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " - ",
+                "speaker": "",
+                "link": ""
+            },
+
+            {
                 "location": "Room 1",
                 "time": "10:00 AM - 1:00 PM",
                 "title": " Demystifying the Django REST Framework: Web Development",
@@ -60,6 +82,28 @@
         "date": "September 24, 2016",
         "description": "See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.",
         "events": [
+            {
+                "location": "Audi 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": "",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 2",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " Registration and Breakfast ",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Lecture room 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " - ",
+                "speaker": "",
+                "link": ""
+            },
+
             {
                 "location": "Audi 1",
                 "time": "09:15 AM - 09:30 AM",
@@ -305,6 +349,28 @@
         "date": "September 25, 2016",
         "description": "See what's going on in the Python world, meet your fellow Pythonistas, share your knowledge and experience, <br/>make contacts, brainstorm projects, discuss prospects.",
         "events": [
+            {
+                "location": "Audi 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " - ",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 2",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " Registration and Breakfast ",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Lecture room 1",
+                "time": "08:00 AM - 09:00 AM",
+                "title": " - ",
+                "speaker": "",
+                "link": ""
+            },
+
             {
                 "location": "Audi 1",
                 "time": "9:30 AM - 10:15 AM",
