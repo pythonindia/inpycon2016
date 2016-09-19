@@ -62,63 +62,84 @@
         "events": [
             {
                 "location": "Audi 1",
-                "time": "09:15 AM - 09:30 PM",
+                "time": "09:15 AM - 09:30 AM",
                 "title": "Introduction and KG Award",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 2",
-                "time": "09:15 AM - 09:30 PM",
+                "time": "09:15 AM - 09:30 AM",
                 "title": "Introduction and KG Award",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture room 1",
-                "time": "09:15 AM - 09:30 PM",
+                "time": "09:15 AM - 09:30 AM",
                 "title": "Introduction and KG Award",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 1",
-                "time": "10:15 AM - 10:45 PM",
+                "time": "09:30 AM - 10:15 AM",
                 "title": "Keynote by BG",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 2",
-                "time": "10:15 AM - 10:45 PM",
+                "time": "09:30 AM - 10:15 AM",
                 "title": "Keynote by BG",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture room 1",
-                "time": "10:15 AM - 10:45 PM",
+                "time": "09:30 AM - 10:15 AM",
                 "title": "Keynote by BG",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 1",
-                "time": "10.45 AM - 11.30 PM",
+                "time": "10.15 AM - 10.45 AM ",
+                "title": "Tea Break",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 2",
+                "time": "10.15 AM - 10.45 AM ",
+                "title": "Tea Break",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Lecture Hall 3",
+                "time": "10.15 AM - 10.45 AM ",
+                "title": "Tea Break",
+                "speaker": "",
+                "link": ""
+            },
+            {
+                "location": "Audi 1",
+                "time": "10.45 AM - 11.30 AM",
                 "title": "Continuous Integration for Data Scientists",
                 "speaker": "Jaidev Deshpande",
                 "link": "https://in.pycon.org/cfp/2016/proposals/continuous-integration-for-data-scientists~ej0zb/"
             },
             {
                 "location": "Audi 2",
-                "time": "10.45 AM - 11.30 PM",
+                "time": "10.45 AM - 11.30 AM",
                 "title": "Flying A Drone",
                 "speaker": "Dinesh Kumar",
                 "link": "https://in.pycon.org/cfp/2016/proposals/flying-a-drone~aMZQb/"
             },
             {
                 "location": "Lecture room 1",
-                "time": "10.45 AM - 11.30 PM",
+                "time": "10.45 AM - 11.30 AM",
                 "title": "Good Bye, Call Stack; Hello, Event Driven Architectures!!",
                 "speaker": "Anvith ShivaKumara",
                 "link": "https://in.pycon.org/cfp/2016/proposals/good-bye-call-stack-hello-event-driven-architectures~erYkd/"
@@ -328,21 +349,21 @@
             },
             {
                 "location": "Audi 1",
-                "time": "10:45 AM - 11:30 PM",
+                "time": "10:45 AM - 11:30 AM",
                 "title": "Algorithmic Music Generation",
                 "speaker": "Padmaja Bhagwat",
                 "link": "https://in.pycon.org/cfp/2016/proposals/algorithmic-music-generation~dBrxd/"
             },
             {
                 "location": "Audi 2",
-                "time": "10:45 AM - 11:30 PM",
+                "time": "10:45 AM - 11:30 AM",
                 "title": "CentOS Community Container Pipeline",
                 "speaker": "Bamacharan Kundu",
                 "link": "https://in.pycon.org/cfp/2016/proposals/containerize-upstream-projects-effortlessly~er9kd/"
             },
             {
                 "location": "Lecture Hall 3",
-                "time": "10:45 AM - 11:30 PM",
+                "time": "10:45 AM - 11:30 AM",
                 "title": "Realtime microservices with server side Flux",
                 "speaker": "Ratnadeep Debnath",
                 "link": "https://in.pycon.org/cfp/2016/proposals/realtime-microservices-with-server-side-flux~bWqXe/"
@@ -496,21 +517,21 @@
             },
             {
                 "location": "Audi 1",
-                "time": "4:45 PM - 5:30PM",
+                "time": "4:45 PM - 5:30 PM",
                 "title": "Feedback and Vote of thanks",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 2",
-                "time": "4:45 PM - 5:30PM",
+                "time": "4:45 PM - 5:30 PM",
                 "title": "Feedback and Vote of thanks",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture Hall 3",
-                "time": "4:45 PM - 5:30PM",
+                "time": "4:45 PM - 5:30 PM",
                 "title": "Feedback and Vote of thanks",
                 "speaker": "",
                 "link": ""
