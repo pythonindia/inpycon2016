@@ -70,35 +70,35 @@
             {
                 "location": "Audi 2",
                 "time": "09:15 AM - 09:30 AM",
-                "title": "Introduction and KG Award",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture room 1",
                 "time": "09:15 AM - 09:30 AM",
-                "title": "Introduction and KG Award",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 1",
                 "time": "09:30 AM - 10:15 AM",
-                "title": "Keynote by BG",
+              "title": "Keynote by Baishampayan Ghose",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Audi 2",
                 "time": "09:30 AM - 10:15 AM",
-                "title": "Keynote by BG",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture room 1",
                 "time": "09:30 AM - 10:15 AM",
-                "title": "Keynote by BG",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
@@ -280,22 +280,22 @@
             {
                 "location": "Audi 1",
                 "time": "4.45 PM - 5.30 PM",
-                "title": "Keynote",
+                "title": "Keynote by Van L",
                 "speaker": "Van L",
                 "link": ""
             },
             {
                 "location": "Audi 2",
                 "time": "4.45 PM - 5.30 PM",
-                "title": "Keynote",
-                "speaker": "Van L",
+                "title": " - ",
+                "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture room 1",
                 "time": "4.45 PM - 5.30 PM",
-                "title": "Keynote",
-                "speaker": "Van L",
+                "title": " - ",
+                "speaker": "",
                 "link": ""
             }
         ]
@@ -308,22 +308,22 @@
             {
                 "location": "Audi 1",
                 "time": "9:30 AM - 10:15 AM",
-                "title": "Keynote",
+                "title": "Keynote by Andreas Muller",
                 "speaker": "Andreas Mueller",
                 "link": ""
             },
             {
                 "location": "Audi 2",
                 "time": "9:30 AM - 10:15 AM",
-                "title": "Keynote",
-                "speaker": "Andreas Mueller",
+                "title": " - ",
+                "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture Hall 3",
                 "time": "9:30 AM - 10:15 AM",
-                "title": "Keynote",
-                "speaker": "Andreas Mueller",
+                "title": " - ",
+                "speaker": "",
                 "link": ""
             },
             {
