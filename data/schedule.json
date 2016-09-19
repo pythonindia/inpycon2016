@@ -203,14 +203,14 @@
             {
                 "location": "Audi 2",
                 "time": "2:00 PM - 2:45 PM",
-                "title": "Lightning Talks",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture room 1",
                 "time": "2:00 PM - 2:45 PM",
-                "title": "Lightning Talks",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
@@ -441,14 +441,14 @@
             {
                 "location": "Audi 2",
                 "time": "2.00 PM - 2.45 PM",
-                "title": "Lightning Talks",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture Hall 3",
                 "time": "2.00 PM - 2.45 PM",
-                "title": "Lightning Talks",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
@@ -525,14 +525,14 @@
             {
                 "location": "Audi 2",
                 "time": "4:45 PM - 5:30 PM",
-                "title": "Feedback and Vote of thanks",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             },
             {
                 "location": "Lecture Hall 3",
                 "time": "4:45 PM - 5:30 PM",
-                "title": "Feedback and Vote of thanks",
+                "title": " - ",
                 "speaker": "",
                 "link": ""
             }
