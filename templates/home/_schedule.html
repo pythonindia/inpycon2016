@@ -23,23 +23,34 @@
                                 <table id="tableDiv" class="table custab">
                                     <thead>
                                         <tr>
-                                            <th style="width:20%;" class="text-center pyred">TIME</th>
-                                            <th style="width:65%;" class="text-center pyred">TITLE</th>
-                                            <th style="width:15%;" class="text-center pyred">LOCATION</th>
+                                            <th style="width:25%;" class="text-center pyred">TIME</th>
+                                            <th style="width:25%;" class="text-center pyred">AUDI 1</th>
+                                            <th style="width:25%;" class="text-center pyred">AUDI 2</th>
+                                            <th style="width:25%;" class="text-center pyred">LECTURE HALL 3</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {% for event in day.events %}
+                                        {% for zone in day.events %}
                                         <tr>
-                                            <td class="pyred">{{ event.time }}</td>
-                                            <td><center>
-                                            {%- if event.link -%}
-                                                <strong><a href="{{ event.link }}?ref=schedule" target="_blank" title="{{ event.title }}">{{ event.title }}</a></strong><br><em>By {{ event.speaker }}</em>
-                                            {%- else -%}
-                                                <strong>{{ event.title }}</strong>
-                                            {%- endif -%}
-                                            </center></td>
-                                            <td><center>{{ event.location }}</center></td>
+                                            <td class="pyred">{{ zone.time }}</td>
+                                            {% if zone.talks[0].title == "Lunch" or zone.talks[0].title == "Break" or zone.talks[0].title == "Break - Tea & Snacks" %}
+                                                {% for i in range(3) %}
+                                                    <td><center>
+                                                        <strong>{{ zone.talks[0].title }}</strong>
+                                                    </center></td>
+                                                {% endfor %}
+                                            {% else %}
+
+                                                {% for talk in zone.talks %}
+                                                    <td><center>
+                                                    {%- if talk.link -%}
+                                                    <strong><a href="{{ talk.link }}?ref=schedule" target="_blank" title="{{ talk.title }}">{{ talk.title }}</a></strong><br><em>By {{ talk.speaker }}</em>
+                                                    {%- else -%}
+                                                    <strong>{{ talk.title }}</strong>
+                                                    {%- endif -%}
+                                                    </center></td>
+                                                {% endfor %}
+                                            {% endif %}
                                         </tr>
                                         {% endfor %}
                                     </tbody>
