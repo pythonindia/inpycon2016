@@ -275,7 +275,7 @@
             {
                 "location": "Lecture room 1",
                 "time": "2.45 PM - 3.30 PM",
-                "title": "(Sponsored Talk) Jet brains",
+                "title": "Sponsored Talk Jet brains: Polyglot Python with PyCharm",
                 "speaker": "",
                 "link": ""
             },
@@ -535,7 +535,7 @@
             {
                 "location": "Lecture Hall 3",
                 "time": "2:45 PM - 3:30 PM",
-                "title": "Digital Ocean",
+                "title": "Sponsored Talk Digital Ocean: Python On the Cloud",
                 "speaker": "",
                 "link": ""
             },
