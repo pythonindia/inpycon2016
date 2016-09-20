@@ -577,9 +577,9 @@
             {
                 "location": "Lecture Hall 2",
                 "time": "4:00 PM - 4:45 PM",
-                "title": "",
-                "speaker": "",
-                "link": ""
+                "title": "Deploying your python backend with (almost) zero cost",
+                "speaker": "Srinivasan R",
+                "link": "https://in.pycon.org/cfp/2016/proposals/deploying-your-python-backend-with-almost-zero-cost~elv7b/"
             },
             {
                 "location": "Audi 1",
