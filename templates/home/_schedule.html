@@ -7,7 +7,7 @@
             <div class="tabbable-line">
                 <ul class="nav nav-tabs nav-justified responsive">
                     {%- for day in schedule -%}
-                    <li class="col-md-4 {% if loop.index == 1 %}active{% endif %}">
+                    <li class="col-md-4 {% if loop.index == 3 %}active{% endif %}">
                         <a href="#{{ day.id }}" data-toggle="tab">
                             <h4 class="date"><i class="fa fa-rocket"></i>&nbsp;&nbsp;{{ day.date }}</h4>
                         </a>
@@ -16,7 +16,7 @@
                 </ul>
                 <div class="tab-content responsive">
                     {% for day in schedule %}
-                    <div class="tab-pane {% if loop.index == 1 %}active{% endif %}" id="{{ day.id }}">
+                    <div class="tab-pane {% if loop.index == 3 %}active{% endif %}" id="{{ day.id }}">
                         <p>{{ day.description }}</p>
                         <div class="table-responsive text-left">
                             <div class="col-md-10 col-md-offset-1 custyle">
